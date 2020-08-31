@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Store Management System | Guide for Store Management System</title>
+<meta name="generator" content="Jekyll v4.1.1" />
+<meta property="og:title" content="Store Management System" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Guide for Store Management System" />
+<meta property="og:description" content="Guide for Store Management System" />
+<link rel="canonical" href="http://localhost:4000/" />
+<meta property="og:url" content="http://localhost:4000/" />
+<meta property="og:site_name" content="Store Management System" />
+<script type="application/ld+json">
+{"@type":"WebSite","url":"http://localhost:4000/","headline":"Store Management System","name":"Store Management System","description":"Guide for Store Management System","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Store Management System" /></head>
+<body><header class="site-header" role="banner">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/">Store Management System</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/License/">License</a><a class="page-link" href="/about/">About</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post">
+
+  <header class="post-header">
+    <h1 class="post-title"></h1>
+  </header>
+
+  <div class="post-content">
+    <!DOCTYPE html><html><head>
+      <title>Store-Management-System-Guide</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      
+      <link rel="stylesheet" href="./katex.min.css">
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      <style>
+      /**
+ * prism.js Github theme based on GitHub's theme.
+ * @author Sam Clarke
+ */
+code[class*="language-"],
+pre[class*="language-"] {
+  color: #333;
+  background: none;
+  font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  text-align: left;
+  white-space: pre;
+  word-spacing: normal;
+  word-break: normal;
+  word-wrap: normal;
+  line-height: 1.4;
+
+  -moz-tab-size: 8;
+  -o-tab-size: 8;
+  tab-size: 8;
+
+  -webkit-hyphens: none;
+  -moz-hyphens: none;
+  -ms-hyphens: none;
+  hyphens: none;
+}
+
+/* Code blocks */
+pre[class*="language-"] {
+  padding: .8em;
+  overflow: auto;
+  /* border: 1px solid #ddd; */
+  border-radius: 3px;
+  /* background: #fff; */
+  background: #f5f5f5;
+}
+
+/* Inline code */
+:not(pre) > code[class*="language-"] {
+  padding: .1em;
+  border-radius: .3em;
+  white-space: normal;
+  background: #f5f5f5;
+}
+
+.token.comment,
+.token.blockquote {
+  color: #969896;
+}
+
+.token.cdata {
+  color: #183691;
+}
+
+.token.doctype,
+.token.punctuation,
+.token.variable,
+.token.macro.property {
+  color: #333;
+}
+
+.token.operator,
+.token.important,
+.token.keyword,
+.token.rule,
+.token.builtin {
+  color: #a71d5d;
+}
+
+.token.string,
+.token.url,
+.token.regex,
+.token.attr-value {
+  color: #183691;
+}
+
+.token.property,
+.token.number,
+.token.boolean,
+.token.entity,
+.token.atrule,
+.token.constant,
+.token.symbol,
+.token.command,
+.token.code {
+  color: #0086b3;
+}
+
+.token.tag,
+.token.selector,
+.token.prolog {
+  color: #63a35c;
+}
+
+.token.function,
+.token.namespace,
+.token.pseudo-element,
+.token.class,
+.token.class-name,
+.token.pseudo-class,
+.token.id,
+.token.url-reference .token.variable,
+.token.attr-name {
+  color: #795da3;
+}
+
+.token.entity {
+  cursor: help;
+}
+
+.token.title,
+.token.title .token.punctuation {
+  font-weight: bold;
+  color: #1d3e81;
+}
+
+.token.list {
+  color: #ed6a43;
+}
+
+.token.inserted {
+  background-color: #eaffea;
+  color: #55a532;
+}
+
+.token.deleted {
+  background-color: #ffecec;
+  color: #bd2c00;
+}
+
+.token.bold {
+  font-weight: bold;
+}
+
+.token.italic {
+  font-style: italic;
+}
+
+
+/* JSON */
+.language-json .token.property {
+  color: #183691;
+}
+
+.language-markup .token.tag .token.punctuation {
+  color: #333;
+}
+
+/* CSS */
+code.language-css,
+.language-css .token.function {
+  color: #0086b3;
+}
+
+/* YAML */
+.language-yaml .token.atrule {
+  color: #63a35c;
+}
+
+code.language-yaml {
+  color: #183691;
+}
+
+/* Ruby */
+.language-ruby .token.function {
+  color: #333;
+}
+
+/* Markdown */
+.language-markdown .token.url {
+  color: #795da3;
+}
+
+/* Makefile */
+.language-makefile .token.symbol {
+  color: #795da3;
+}
+
+.language-makefile .token.variable {
+  color: #183691;
+}
+
+.language-makefile .token.builtin {
+  color: #0086b3;
+}
+
+/* Bash */
+.language-bash .token.keyword {
+  color: #0086b3;
+}
+
+/* highlight */
+pre[data-line] {
+  position: relative;
+  padding: 1em 0 1em 3em;
+}
+pre[data-line] .line-highlight-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: transparent;
+  display: block;
+  width: 100%;
+}
+
+pre[data-line] .line-highlight {
+  position: absolute;
+  left: 0;
+  right: 0;
+  padding: inherit 0;
+  margin-top: 1em;
+  background: hsla(24, 20%, 50%,.08);
+  background: linear-gradient(to right, hsla(24, 20%, 50%,.1) 70%, hsla(24, 20%, 50%,0));
+  pointer-events: none;
+  line-height: inherit;
+  white-space: pre;
+}
+
+pre[data-line] .line-highlight:before, 
+pre[data-line] .line-highlight[data-end]:after {
+  content: attr(data-start);
+  position: absolute;
+  top: .4em;
+  left: .6em;
+  min-width: 1em;
+  padding: 0 .5em;
+  background-color: hsla(24, 20%, 50%,.4);
+  color: hsl(24, 20%, 95%);
+  font: bold 65%/1.5 sans-serif;
+  text-align: center;
+  vertical-align: .3em;
+  border-radius: 999px;
+  text-shadow: none;
+  box-shadow: 0 1px white;
+}
+
+pre[data-line] .line-highlight[data-end]:after {
+  content: attr(data-end);
+  top: auto;
+  bottom: .4em;
+}html body{font-family:"Helvetica Neue",Helvetica,"Segoe UI",Arial,freesans,sans-serif;font-size:16px;line-height:1.6;color:#333;background-color:#fff;overflow:initial;box-sizing:border-box;word-wrap:break-word}html body>:first-child{margin-top:0}html body h1,html body h2,html body h3,html body h4,html body h5,html body h6{line-height:1.2;margin-top:1em;margin-bottom:16px;color:#000}html body h1{font-size:2.25em;font-weight:300;padding-bottom:.3em}html body h2{font-size:1.75em;font-weight:400;padding-bottom:.3em}html body h3{font-size:1.5em;font-weight:500}html body h4{font-size:1.25em;font-weight:600}html body h5{font-size:1.1em;font-weight:600}html body h6{font-size:1em;font-weight:600}html body h1,html body h2,html body h3,html body h4,html body h5{font-weight:600}html body h5{font-size:1em}html body h6{color:#5c5c5c}html body strong{color:#000}html body del{color:#5c5c5c}html body a:not([href]){color:inherit;text-decoration:none}html body a{color:#08c;text-decoration:none}html body a:hover{color:#00a3f5;text-decoration:none}html body img{max-width:100%}html body>p{margin-top:0;margin-bottom:16px;word-wrap:break-word}html body>ul,html body>ol{margin-bottom:16px}html body ul,html body ol{padding-left:2em}html body ul.no-list,html body ol.no-list{padding:0;list-style-type:none}html body ul ul,html body ul ol,html body ol ol,html body ol ul{margin-top:0;margin-bottom:0}html body li{margin-bottom:0}html body li.task-list-item{list-style:none}html body li>p{margin-top:0;margin-bottom:0}html body .task-list-item-checkbox{margin:0 .2em .25em -1.8em;vertical-align:middle}html body .task-list-item-checkbox:hover{cursor:pointer}html body blockquote{margin:16px 0;font-size:inherit;padding:0 15px;color:#5c5c5c;background-color:#f0f0f0;border-left:4px solid #d6d6d6}html body blockquote>:first-child{margin-top:0}html body blockquote>:last-child{margin-bottom:0}html body hr{height:4px;margin:32px 0;background-color:#d6d6d6;border:0 none}html body table{margin:10px 0 15px 0;border-collapse:collapse;border-spacing:0;display:block;width:100%;overflow:auto;word-break:normal;word-break:keep-all}html body table th{font-weight:bold;color:#000}html body table td,html body table th{border:1px solid #d6d6d6;padding:6px 13px}html body dl{padding:0}html body dl dt{padding:0;margin-top:16px;font-size:1em;font-style:italic;font-weight:bold}html body dl dd{padding:0 16px;margin-bottom:16px}html body code{font-family:Menlo,Monaco,Consolas,'Courier New',monospace;font-size:.85em !important;color:#000;background-color:#f0f0f0;border-radius:3px;padding:.2em 0}html body code::before,html body code::after{letter-spacing:-0.2em;content:"\00a0"}html body pre>code{padding:0;margin:0;font-size:.85em !important;word-break:normal;white-space:pre;background:transparent;border:0}html body .highlight{margin-bottom:16px}html body .highlight pre,html body pre{padding:1em;overflow:auto;font-size:.85em !important;line-height:1.45;border:#d6d6d6;border-radius:3px}html body .highlight pre{margin-bottom:0;word-break:normal}html body pre code,html body pre tt{display:inline;max-width:initial;padding:0;margin:0;overflow:initial;line-height:inherit;word-wrap:normal;background-color:transparent;border:0}html body pre code:before,html body pre tt:before,html body pre code:after,html body pre tt:after{content:normal}html body p,html body blockquote,html body ul,html body ol,html body dl,html body pre{margin-top:0;margin-bottom:16px}html body kbd{color:#000;border:1px solid #d6d6d6;border-bottom:2px solid #c7c7c7;padding:2px 4px;background-color:#f0f0f0;border-radius:3px}@media print{html body{background-color:#fff}html body h1,html body h2,html body h3,html body h4,html body h5,html body h6{color:#000;page-break-after:avoid}html body blockquote{color:#5c5c5c}html body pre{page-break-inside:avoid}html body table{display:table}html body img{display:block;max-width:100%;max-height:100%}html body pre,html body code{word-wrap:break-word;white-space:pre}}.markdown-preview{width:100%;height:100%;box-sizing:border-box}.markdown-preview .pagebreak,.markdown-preview .newpage{page-break-before:always}.markdown-preview pre.line-numbers{position:relative;padding-left:3.8em;counter-reset:linenumber}.markdown-preview pre.line-numbers>code{position:relative}.markdown-preview pre.line-numbers .line-numbers-rows{position:absolute;pointer-events:none;top:1em;font-size:100%;left:0;width:3em;letter-spacing:-1px;border-right:1px solid #999;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.markdown-preview pre.line-numbers .line-numbers-rows>span{pointer-events:none;display:block;counter-increment:linenumber}.markdown-preview pre.line-numbers .line-numbers-rows>span:before{content:counter(linenumber);color:#999;display:block;padding-right:.8em;text-align:right}.markdown-preview .mathjax-exps .MathJax_Display{text-align:center !important}.markdown-preview:not([for="preview"]) .code-chunk .btn-group{display:none}.markdown-preview:not([for="preview"]) .code-chunk .status{display:none}.markdown-preview:not([for="preview"]) .code-chunk .output-div{margin-bottom:16px}.scrollbar-style::-webkit-scrollbar{width:8px}.scrollbar-style::-webkit-scrollbar-track{border-radius:10px;background-color:transparent}.scrollbar-style::-webkit-scrollbar-thumb{border-radius:5px;background-color:rgba(150,150,150,0.66);border:4px solid rgba(150,150,150,0.66);background-clip:content-box}html body[for="html-export"]:not([data-presentation-mode]){position:relative;width:100%;height:100%;top:0;left:0;margin:0;padding:0;overflow:auto}html body[for="html-export"]:not([data-presentation-mode]) .markdown-preview{position:relative;top:0}@media screen and (min-width:914px){html body[for="html-export"]:not([data-presentation-mode]) .markdown-preview{padding:2em calc(50% - 457px + 2em)}}@media screen and (max-width:914px){html body[for="html-export"]:not([data-presentation-mode]) .markdown-preview{padding:2em}}@media screen and (max-width:450px){html body[for="html-export"]:not([data-presentation-mode]) .markdown-preview{font-size:14px !important;padding:1em}}@media print{html body[for="html-export"]:not([data-presentation-mode]) #sidebar-toc-btn{display:none}}html body[for="html-export"]:not([data-presentation-mode]) #sidebar-toc-btn{position:fixed;bottom:8px;left:8px;font-size:28px;cursor:pointer;color:inherit;z-index:99;width:32px;text-align:center;opacity:.4}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] #sidebar-toc-btn{opacity:1}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc{position:fixed;top:0;left:0;width:300px;height:100%;padding:32px 0 48px 0;font-size:14px;box-shadow:0 0 4px rgba(150,150,150,0.33);box-sizing:border-box;overflow:auto;background-color:inherit}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar{width:8px}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar-track{border-radius:10px;background-color:transparent}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar-thumb{border-radius:5px;background-color:rgba(150,150,150,0.66);border:4px solid rgba(150,150,150,0.66);background-clip:content-box}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc a{text-decoration:none}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc ul{padding:0 1.6em;margin-top:.8em}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc li{margin-bottom:.8em}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc ul{list-style-type:none}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{left:300px;width:calc(100% -  300px);padding:2em calc(50% - 457px -  150px);margin:0;box-sizing:border-box}@media screen and (max-width:1274px){html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{padding:2em}}@media screen and (max-width:450px){html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{width:100%}}html body[for="html-export"]:not([data-presentation-mode]):not([html-show-sidebar-toc]) .markdown-preview{left:50%;transform:translateX(-50%)}html body[for="html-export"]:not([data-presentation-mode]):not([html-show-sidebar-toc]) .md-sidebar-toc{display:none}
+/* Please visit the URL below for more information: */
+/*   https://shd101wyy.github.io/markdown-preview-enhanced/#/customize-css */
+
+      </style>
+    </head>
+    <body for="html-export">
+      <div class="mume markdown-preview  ">
+      <p align="center"><img width="100" height="100" src="https://a.fsdn.com/allura/p/store-management-system/icon?1595068977?&amp;w=90"></p>
+<h1 align="center">Store Management System</h1>
+<p align="center">System which works as electronic notebook for keeping records.</p>
+<br>
+<p><a href="https://sourceforge.net/projects/store-management-system/files/latest/download"><img src="https://a.fsdn.com/con/app/sf-download-button" alt="Download Store Management System"></a></p>
+<br>
+<h3 class="mume-header" id="hi-welcome-to-this-guide-smiley">Hi welcome to this guide &#x1F603; :</h3>
+
+<h6 class="mume-header" id="i-have-created-this-guide-to-help-users-who-are-new-boy-and-old-older_man-as-well-to-help-them-use-this-software-to-its-full-potential">I have created this guide to help users who are new &#x1F466; and old &#x1F474; as well to help them use this software to its full potential.</h6>
+
+<h6 class="mume-header" id="if-you-have-any-doubt-or-some-problems-you-are-facing-feel-free-to-create-the-tickets-on-sourceforge">If you have any doubt or some problems you are facing feel free to &quot;create the tickets&quot; on sourceforge.</h6>
+
+<h6 class="mume-header" id="this-guide-will-help-you-for-installing-and-using-this-software">This guide will help you for installing and using this software.</h6>
+
+<p><a href="https://sourceforge.net/p/store-management-system/tickets/">You can create tickets by clicking here if you have any problems</a></p>
+<br>
+<br>
+<h3 class="mume-header" id="table-of-contents">Table Of Contents:</h3>
+
+<p><strong><a href="#installation-instructions">Installation Instructions</a></strong><br><br>
+<strong><a href="#usage-instructions">Usage Instructions</a></strong><br><br>
+<strong><a href="#compatibility">Compatibility</a></strong><br><br>
+<strong><a href="#license">License</a></strong><br></p>
+<h2 class="mume-header" id="installation-instructions">Installation Instructions :</h2>
+
+<h4 class="mume-header" id="these-are-detailed-installation-instructions-for-this-software-to-help-you-guide-through-the-installation">These are detailed installation instructions for this software to help you guide through the installation.</h4>
+
+<h6 class="mume-header" id="first-click-on-the-icon-of-the-software-once-clicked-it-will-open-a-window-where-you-will-see-two-options-one-is-recommended-as-you-can-see-in-the">First click on the icon of the software once clicked it will open a window where you will see two options one is recommended as you can see in the</h6>
+
+<h6 class="mume-header" id="image-given-below-choose-the-recommended-option">image given below choose the (Recommended option).</h6>
+
+<p><img src="./data/sms-0.jpg" alt="alt text" title="Installation Instruction"></p>
+<h6 class="mume-header" id="click-the-install-for-me-option-as-it-will-not-require-any-admin-permissions-if-you-want-to-install-it-as-admin-which-is-second-option">Click the install for me option as it will not require any admin permissions if you want to install it as admin which is second option</h6>
+
+<h6 class="mume-header" id="you-will-require-the-admin-access-for-installing-as-well-as-for-running-the-software">you will require the admin access for installing as well as for running the software.</h6>
+
+<h6 class="mume-header" id="once-you-choose-the-option-then-you-have-to-agree-on-the-license-see-in-image-below">Once you choose the option then you have to agree on the license see in image below.</h6>
+
+<p><img src="./data/sms-1.jpg" alt="alt text" title="Installation Instruction"></p>
+<h6 class="mume-header" id="once-you-agreed-to-the-terms-and-conditions-of-the-software-click-on-next-then-you-will-get-to-choose-the-destination-of-the-installation">Once you agreed to the terms and conditions of the software click on next then you will get to choose the destination of the installation</h6>
+
+<h6 class="mume-header" id="choose-wherever-you-want-to-install-the-software-and-you-have-the-required-space-for-the-software-click-next">choose wherever you want to install the software and you have the required space for the software click next.</h6>
+
+<p><img src="./data/sms-2.jpg" alt="alt text" title="Installation Instruction"></p>
+<h6 class="mume-header" id="once-you-have-selected-the-folder-then-choose-if-you-want-to-have-start-menu-folder-or-not">Once you have selected the folder then choose if you want to have start menu folder or not.</h6>
+
+<h6 class="mume-header" id="the-choice-is-yours-you-can-also-change-the-folders-name-if-you-want-then-click-next">The choice is yours. You can also change the folders name if you want then click next.</h6>
+
+<p><img src="./data/sms-3.jpg" alt="alt text" title="Installation Instruction"></p>
+<h6 class="mume-header" id="once-you-have-decided-to-have-the-start-menu-folder-or-not-then-decide-if-you-want-the-shortcut-or-not">Once you have decided to have the start menu folder or not, then decide if you want the shortcut or not.</h6>
+
+<p><img src="./data/sms-4.jpg" alt="alt text" title="Installation Instruction"></p>
+<h6 class="mume-header" id="then-review-the-options-again-and-install-the-software">Then review the options again and install the software</h6>
+
+<p><img src="./data/sms-5.jpg" alt="alt text" title="Installation Instruction"></p>
+<h6 class="mume-header" id="once-installed-the-software-you-can-run-it">Once installed the software you can run it.</h6>
+
+<p><img src="./data/sms-6.jpg" alt="alt text" title="Installation Instruction"></p>
+<h3 class="mume-header" id="warning-if-you-have-selected-the-admin-option-then-uncheck-the-option-shown-in-image-above-or-you-will-run-into-a-minor-permission-problems-like-the-one-in-image-below">&#x26A0;&#xFE0F; If you have selected the Admin option then uncheck the option shown in image above or you will run into a minor permission problems like the one in image below.</h3>
+
+<p><img src="./data/sms-12.jpg" alt="alt text" title="Installation Instruction"></p>
+<h6 class="mume-header" id="if-you-have-selected-the-admin-option-then-right-click-on-the-icon-of-store-management-system-and-click-run-as-administrator-to-get-rid-of-the-problem">If you have selected the admin option then right click on the icon of Store Management System and click &quot;RUN AS ADMINISTRATOR&quot; to get rid of the problem</h6>
+
+<br>
+<h2 class="mume-header" id="usage-instructions">Usage Instructions :</h2>
+
+<h4 class="mume-header" id="these-are-detailed-usage-instructions-for-this-software-to-help-you-use-the-software">These are detailed usage instructions for this software to help you use the software.</h4>
+
+<h6 class="mume-header" id="when-you-will-open-the-app-for-the-first-time-you-will-be-greeted-by-this-message">When you will open the app for the first time you will be greeted by this message.</h6>
+
+<p><img src="./data/sms-7.jpg" alt="alt text" title="Usage Instruction"></p>
+<h6 class="mume-header" id="if-you-have-an-database-backup-present-click-yes-and-select-folder-named-database_backup-and-click-select-folder">If you have an database backup present click yes and select folder named &apos; Database_Backup &apos; and click select folder.</h6>
+
+<p><img src="./data/sms-31.jpg" alt="alt text" title="Usage Instruction"></p>
+<h6 class="mume-header" id="but-if-you-do-not-have-the-backup-present-then-click-no-and-proceed-for-setup-of-the-app">But if you do not have the backup present then click no and proceed for setup of the app.</h6>
+
+<h6 class="mume-header" id="once-you-clicked-no-you-will-get-a-greeting-screen-like-this-click-on-ok-button">Once you clicked no you will get a greeting screen like this click on ok button.</h6>
+
+<p><img src="./data/sms-8.jpg" alt="alt text" title="Usage Instruction"></p>
+<h6 class="mume-header" id="after-the-greeting-you-will-be-prompted-to-create-account-enter-username-and-password-of-your-choice">After the greeting you will be prompted to create account enter username and password of your choice.</h6>
+
+<p><img src="./data/sms-9.jpg" alt="alt text" title="Usage Instruction"></p>
+<h6 class="mume-header" id="then-click-register-after-registeration-you-have-to-fill-the-details-of-your-shop-like-name-and-shop-reg-number-etc-for-reference-see-image-below">Then click register after registeration you have to fill the details of your shop like name and shop reg number etc for reference see image below.</h6>
+
+<p><img src="./data/sms-10.jpg" alt="alt text" title="Usage Instruction"></p>
+<h6 class="mume-header" id="then-click-on-the-save-button-to-complete-the-registeration-process-remember-this-is-only-when-you-open-the-application-for-the-first-time">Then click on the save button to complete the registeration process remember this is only when you open the application for the first time.</h6>
+
+<p><img src="./data/sms-11.jpg" alt="alt text" title="Usage Instruction"></p>
+<h6 class="mume-header" id="click-the-icon-of-the-app-to-again-open-it-remember-if-you-have-installed-the-app-using-admin-permission-you-have-to-open-the-app-using-run-as-administrator">Click the icon of the app to again open it remember if you have installed the app using admin permission you have to open the app using Run As Administrator.</h6>
+
+<h6 class="mume-header" id="then-enter-your-own-username-and-password">Then enter your own username and password.</h6>
+
+<p><img src="./data/sms-13.jpg" alt="alt text" title="Usage Instruction"></p>
+<h6 class="mume-header" id="if-you-have-any-employee-then-set-a-username-and-passowrd-and-click-register-to-register-the-employee-in-the-database-for-access-for-reference-see-image-below">If you have any employee then set a username and passowrd and click register to register the employee in the database for access for reference see image below.</h6>
+
+<p><img src="./data/sms-14.jpg" alt="alt text" title="Usage Instruction"></p>
+<h6 class="mume-header" id="once-you-have-successfully-logged-in-you-will-see-the-main-menu-which-has-the-username-time-and-date">Once you have successfully logged in you will see the main menu which has the username, time and date.</h6>
+
+<p><img src="./data/sms-15.jpg" alt="alt text" title="Usage Instruction"></p>
+<h6 class="mume-header" id="you-can-see-the-menu-lets-explore-these-options-one-by-one-first-is-products-it-has-four-sub-options-namely-add-edit-find-and-delete-products">You can see the menu, lets explore these options one by one, first is products it has four sub options namely Add, Edit, Find and Delete products</h6>
+
+<h6 class="mume-header" id="lets-see-the-first-add-product-page">Let`s see the first Add product page.</h6>
+
+<p><img src="./data/sms-16.jpg" alt="alt text" title="Usage Instruction"></p>
+<h6 class="mume-header" id="in-this-page-you-can-add-product-to-add-one-you-have-to-give-name-quantity-price-of-one-unit-and-description-and-then-you-have-to-click-the-add-the-product-button">In this page you can add product, to add one you have to give name, quantity, price of one unit and description and then you have to click the add the product button</h6>
+
+<h6 class="mume-header" id="once-you-have-clicked-the-button-you-will-get-tax-window-in-which-you-have-to-select-one-from-three-given-option-for-reference-see-image-below">Once you have clicked the button you will get tax window in which you have to select one from three given option for reference see image below.</h6>
+
+<p><img src="./data/sms-17.jpg" alt="alt text" title="Usage Instruction"></p>
+<h6 class="mume-header" id="now-remember-that-if-you-add-vat-it-will-be-added-as-percent-for-example-if-vat-is-2-the-app-will-store-it-as-002-same-is-true-for-the-third-option-that-is-other-tax">Now remember that if you add vat it will be added as percent for example if vat is 2 the app will store it as 0.02% same is true for the third option that is other tax</h6>
+
+<h6 class="mume-header" id="if-you-have-any-other-tax-in-your-country-then-you-can-add-that-tax-as-well-it-will-ask-for-your-confirmation-before-storing-the-products-information">if you have any other tax in your country then you can add that tax as well it will ask for your confirmation before storing the products information.</h6>
+
+<p><img src="./data/sms-18.jpg" alt="alt text" title="Usage Instruction"></p>
+<h6 class="mume-header" id="this-is-add-product-page-lets-go-to-edit-products-page">This is add product page lets go to edit products page.</h6>
+
+<p><img src="./data/sms-20.jpg" alt="alt text" title="Usage Instruction"></p>
+<h6 class="mume-header" id="in-the-edit-page-you-have-to-first-find-the-product-before-you-can-edit-the-info-you-have-about-the-product">In the edit page you have to first find the product before you can edit the info you have about the product.</h6>
+
+<h6 class="mume-header" id="then-you-can-change-in-the-right-hand-side-inputs-once-done-click-edit-product-once-again-you-will-get-tax-window-to-edit-the-information-about-tax">then you can change in the right hand side inputs once done click edit product once again you will get tax window to edit the information about tax.</h6>
+
+<p><img src="./data/sms-21.jpg" alt="alt text" title="Usage Instruction"></p>
+<h6 class="mume-header" id="once-done-it-will-ask-for-your-confirmation-before-storing-the-new-information">Once done it will ask for your confirmation before storing the new information.</h6>
+
+<h6 class="mume-header" id="lets-go-to-the-find-products-page">Lets go to the Find products page.</h6>
+
+<p><img src="./data/sms-22.jpg" alt="alt text" title="Usage Instruction"></p>
+<h6 class="mume-header" id="here-you-have-to-give-name-and-it-will-give-the-information-about-products-for-reference-see-image-above">Here you have to give name and it will give the information about products for reference see image above.</h6>
+
+<h6 class="mume-header" id="lets-go-to-the-delete-page">Lets go to the delete page.</h6>
+
+<p><img src="./data/sms-23.jpg" alt="alt text" title="Usage Instruction"></p>
+<h6 class="mume-header" id="write-the-name-of-the-product-to-delete-if-the-product-information-exists-it-will-delete-it-by-confirming-first">Write the name of the product to delete if the product information exists it will delete it by confirming first.</h6>
+
+<h5 class="mume-header" id="this-was-the-inventory-or-product-pages">This was the inventory or product pages.</h5>
+
+<h5 class="mume-header" id="now-to-point-of-sale">Now to point of sale.</h5>
+
+<p><img src="./data/sms-24.jpg" alt="alt text" title="Usage Instruction"></p>
+<h6 class="mume-header" id="first-enter-the-name-of-the-product-that-you-want-then-click-on-search-if-the-product-is-available-it-will-give-available-status">First enter the name of the product that you want then click on search if the product is available it will give available status</h6>
+
+<h6 class="mume-header" id="it-will-also-show-quantity-remaining-and-price-of-one-unit-then-type-the-amount-of-the-quantity-required-in-the-box-then-click-the-add-to-bill-button-to-add-the-product-in-the-bill">it will also show quantity remaining and price of one unit then type the amount of the quantity required in the box then click the &quot;add to bill&quot; button to add the product in the bill.</h6>
+
+<h6 class="mume-header" id="in-this-way-you-can-add-the-products-to-the-bill-for-customer">In this way you can add the products to the bill for customer.</h6>
+
+<h6 class="mume-header" id="you-can-also-change-the-quantity-of-the-given-product-first-you-have-to-click-the-change-button-then-a-popup-will-appear-see-image-below">You can also change the quantity of the given product first you have to click the change button then a popup will appear see image below</h6>
+
+<p><img src="./data/sms-26.jpg" alt="alt text" title="Usage Instruction"></p>
+<h6 class="mume-header" id="click-the-product-for-which-you-want-to-change-the-quantity-then-type-quantity-in-the-quantity-box-and-click-change-to-change-the-quantity">Click the product for which you want to change the quantity then type quantity in the &quot;quantity box&quot; and click change to change the quantity.</h6>
+
+<h6 class="mume-header" id="if-you-want-a-certain-product-to-be-removed-from-the-bill-click-on-the-delete-from-bill-button-then-a-popup-will-appear-for-deleting-the-required-product-from-bill">If you want a certain product to be removed from the bill click on the delete from bill button then a popup will appear for deleting the required product from bill</h6>
+
+<p><img src="./data/sms-25.jpg" alt="alt text" title="Usage Instruction"></p>
+<h6 class="mume-header" id="select-the-product-and-click-delete-to-delete-the-product">select the product and click delete to delete the product.</h6>
+
+<h6 class="mume-header" id="once-the-order-is-completed-click-on-the-checkout-button-to-generate-bill-and-take-the-payment-from-customer">once the order is completed click on the checkout button to generate bill and take the payment from customer.</h6>
+
+<p><img src="./data/sms-27.jpg" alt="alt text" title="Usage Instruction"></p>
+<h6 class="mume-header" id="then-click-the-payment-button-for-the-payment-options-there-are-two-options-in-the-payment-window-one-is-cash-and-one-is-card">Then click the payment button for the payment options, there are two options in the payment window one is cash and one is card.</h6>
+
+<p><img src="./data/sms-28.jpg" alt="alt text" title="Usage Instruction"></p>
+<h6 class="mume-header" id="select-the-mode-of-payment-and-click-done-if-the-mode-is-cash-and-click-go-if-the-mode-is-card-now-takeout-print-of-the-bill">Select the mode of payment and click &apos;done&apos; if the mode is cash and click &apos;go&apos; if the mode is card. Now takeout print of the bill.</h6>
+
+<h5 class="mume-header" id="this-was-the-point-of-sale-page-now-lets-go-to-the-sales-page-where-you-can-see-sales-of-your-shop">This was the point of sale page now lets go to the sales page where you can see sales of your shop.</h5>
+
+<p><img src="./data/sms-29.jpg" alt="alt text" title="Usage Instruction"></p>
+<h6 class="mume-header" id="you-have-to-enter-any-employee-name-to-get-the-sales-he-has-done-till-date-like-in-the-image-above-remember-only-owners-can-see-sales-of-employee">You have to enter any employee name to get the sales he has done till date like in the image above remember only owners can see Sales of employee.</h6>
+
+<h5 class="mume-header" id="lets-go-to-backup">Lets go to backup.</h5>
+
+<p><img src="./data/sms-30.jpg" alt="alt text" title="Usage Instruction"></p>
+<h6 class="mume-header" id="once-you-click-the-backup-button-in-the-menu-you-will-get-the-folder-selection-window-select-the-folder-like-in-the-image-above">Once you click the backup button in the menu you will get the folder selection window select the folder like in the image above.</h6>
+
+<br>
+<h2 class="mume-header" id="compatibility">Compatibility :</h2>
+
+<h6 class="mume-header" id="store-management-system-is-compatible-with-windows-10-8-or-81-and-7">Store Management System is compatible with windows 10, 8 or 8.1 and 7.</h6>
+
+<h6 class="mume-header" id="sadly-linux-and-mac-support-is-not-available-i-am-still-working-on-it">Sadly linux and mac support is not available I am still working on it.</h6>
+
+<br>
+<h2 class="mume-header" id="license">License :</h2>
+
+<p><a href="https://www.gnu.org/licenses/gpl-3.0.en.html">Store Management System is under license GNU-GPL - 3.0</a></p>
+<p><a href="/License/">This guide is also under license of GNU-FDL - 1.3</a></p>
+<br>
+<h1 class="mume-header" id="thank-you-for-reading-this-guide-i-hope-this-will-help-you-wave-bye">Thank You For Reading This Guide I Hope This Will Help You &#x1F44B; Bye.</h1>
+
+
+      </div>
+      
+      
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    </body></html>
+  </div>
+
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">Store Management System</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">Store Management System</li></ul>
+      </div>
+
+      <div class="footer-col footer-col-2"><ul class="social-media-list"><li><a href="https://github.com/tmotagam"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#github"></use></svg> <span class="username">tmotagam</span></a></li></ul>
+</div>
+
+      <div class="footer-col footer-col-3">
+        <p>Guide for Store Management System</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>
