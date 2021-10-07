@@ -9,7 +9,7 @@ loadScriptAsync = (callback) => {
 
     const tag = document.createElement('script');
     tag.onload = callback;
-    tag.src = 'https://www.googletagmanager.com/gtag/js?id=UA-176802245-2';
+    tag.src = 'https://www.googletagmanager.com/gtag/js?id=UA-176802245-1';
     document.head.appendChild(tag);
 }
 
