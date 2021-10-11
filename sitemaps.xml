@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://tmotagam.github.io/</loc>
+  <lastmod>2021-09-20T15:39:32+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://tmotagam.github.io/pages/about%20me/</loc>
+  <lastmod>2021-09-20T15:39:32+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://tmotagam.github.io/pages/projects/</loc>
+  <lastmod>2021-09-20T15:39:32+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://tmotagam.github.io/pages/Contact/</loc>
+  <lastmod>2021-09-20T15:39:32+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://tmotagam.github.io/licenses/?d=sw</loc>
+  <lastmod>2021-09-20T15:39:32+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://tmotagam.github.io/licenses/?d=ii</loc>
+  <lastmod>2021-09-20T15:39:32+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://tmotagam.github.io/licenses/?d=cd</loc>
+  <lastmod>2021-09-20T15:39:32+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://tmotagam.github.io/pages/app/?d=sms</loc>
+  <lastmod>2021-09-20T15:39:32+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://tmotagam.github.io/pages/app/?d=tfx</loc>
+  <lastmod>2021-09-20T15:39:32+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://tmotagam.github.io/pages/app/?d=ftpt</loc>
+  <lastmod>2021-09-20T15:39:32+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://tmotagam.github.io/pages/app/?d=ope</loc>
+  <lastmod>2021-09-20T15:39:32+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+
+
+</urlset>
