@@ -8,7 +8,7 @@ It works as electronic book for keeping attendance records using face identifica
 
 It can mark attendance upto 100 person it can be used anywhere.
 
-[![Read the guide](/public/images/btn.g.webp)](../app/?d=tfx_docs)
+<a href="javascript:startApp('tfx_docs')"><img src="/public/images/btn.g.webp" alt=""></a>
 
 <br>
 

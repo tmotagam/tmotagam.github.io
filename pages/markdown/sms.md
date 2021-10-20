@@ -8,7 +8,7 @@ Shop management system which works as electronic notebook it has sales analytics
 
 You can also see guide for Store Management System down below
 
-[![Read the guide](/public/images/btn.g.webp)](../app/?d=sms_docs)
+<a href="javascript:startApp('sms_docs')"><img src="/public/images/btn.g.webp" alt=""></a>
 
 <br>
 

@@ -1,4 +1,4 @@
-[![Read the guide](/public/images/btn.b.webp)](../app/?d=sms)
+<a href="javascript:startApp('sms')"><img src="/public/images/btn.b.webp" alt=""></a>
 <br>
 <h1 align = "center">Store Management System</h1>
 <p align = "center">System which works as electronic notebook for keeping records.</p>
