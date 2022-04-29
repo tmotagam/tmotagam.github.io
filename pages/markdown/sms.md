@@ -1,4 +1,4 @@
-<h1 align = "center">Store Management System</h1>
+<h1 style="color: #b76957;" align="center">Store Management System</h1>
 <p align = "center">System which works as electronic notebook for keeping records.</p>
 
 <a href="javascript:download('sms')"><img src="/public/images/btn.d.webp" alt=""></a>
@@ -12,10 +12,14 @@ You can also see guide for Store Management System down below
 
 <br>
 
-### Latest Version -> 1.0.6
+### Latest Version -> 1.0.7
 
 #### What`s new
-Added new icon
+Now only owners can see and use sales analytics and backup creations.
+
+Now product editing has been made easy.
+
+Help and Product menus are also updated.
 
 <br>
 

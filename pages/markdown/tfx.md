@@ -1,4 +1,4 @@
-<h1 align = "center">TahaFacex</h1>
+<h1 style="color: #c999e8;" align="center">TahaFacex</h1>
 <p align = "center">It works as electronic book for keeping attendance records.</p>
 
 <a href="javascript:download('tfx')"><img src="/public/images/btn.d.webp" alt=""></a>

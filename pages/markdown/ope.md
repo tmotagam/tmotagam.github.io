@@ -1,4 +1,4 @@
-<h1 align = "center">Online Protracted Examination System</h1>
+<h1 style="color: #01a5a4;" align = "center">Online Protracted Examination System</h1>
 <p align = "center">Secure System for online examination.</p>
 
 <a href="javascript:download('ope')"><img src="/public/images/btn.d.webp" alt=""></a>
