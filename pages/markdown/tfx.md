@@ -12,15 +12,13 @@ It can mark attendance upto 100 person it can be used anywhere.
 
 <br>
 
-### Latest Version -> 1.1.0
+### Latest Version -> 1.1.5
 
 #### MINOR CHANGE
 Functionality improved
 
 #### MAJOR CHANGE:
-Backup and Restore (For 1.1.0 and future versions only)
-
-Export your attendance sheets in excel format of each class
+Login page reworked
 
 <br>
 

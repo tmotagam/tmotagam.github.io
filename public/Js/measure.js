@@ -9,7 +9,7 @@ loadScriptAsync = (callback) => {
 
     const tag = document.createElement('script');
     tag.onload = callback;
-    tag.src = 'https://www.googletagmanager.com/gtag/js?id=UA-176802245-1';
+    tag.src = 'https://www.googletagmanager.com/gtag/js?id=G-FYVC394K6N';
     document.head.appendChild(tag);
 }
 
@@ -17,5 +17,5 @@ loadScriptAsync(() => {
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
-    gtag('config', 'UA-176802245-1');
+    gtag('config', 'G-FYVC394K6N');
 })

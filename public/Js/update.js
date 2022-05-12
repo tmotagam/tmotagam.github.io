@@ -83,8 +83,13 @@ function update(name, v) {
                     body: JSON.stringify({'name': name, 'version': v})}).then((response) => {
                         if (response.status === 200) {
                             response.json().then((data) => {
-                                document.getElementById("nv").innerHTML = `<p class="h5">Latest Version: `+ data.version +`</p>`;
-                                document.getElementById("message").innerHTML = `<p class="h5">`+ data.message +`<a class="text-decoration-none" href="javascript:download('tfx')">Click here</a></p>`;
+                                if (data.link === '#') {
+                                    document.getElementById("nv").innerHTML = `<p class="h5">Latest Version: `+ data.version +`</p>`;
+                                    document.getElementById("message").innerHTML = `<p class="h5">`+ data.message +`</p>`;
+                                } else {
+                                    document.getElementById("nv").innerHTML = `<p class="h5">Latest Version: `+ data.version +`</p>`;
+                                    document.getElementById("message").innerHTML = `<p class="h5">`+ data.message +`<a class="text-decoration-none" href="javascript:download('tfx')">Click here to download</a></p>`;
+                                }
                             })
                         } else {
                             response.json().then((data) => {
@@ -105,8 +110,13 @@ function update(name, v) {
                     body: JSON.stringify({'name': name, 'version': v})}).then((response) => {
                         if (response.status === 200) {
                             response.json().then((data) => {
-                                document.getElementById("nv").innerHTML = `<p class="h5">Latest Version: `+ data.version +`</p>`;
-                                document.getElementById("message").innerHTML = `<p class="h5">`+ data.message +`<a class="text-decoration-none" href="javascript:download('ftpt')">Click here</a></p>`;
+                                if (data.link === '#') {
+                                    document.getElementById("nv").innerHTML = `<p class="h5">Latest Version: `+ data.version +`</p>`;
+                                    document.getElementById("message").innerHTML = `<p class="h5">`+ data.message +`</p>`;
+                                } else {
+                                    document.getElementById("nv").innerHTML = `<p class="h5">Latest Version: `+ data.version +`</p>`;
+                                    document.getElementById("message").innerHTML = `<p class="h5">`+ data.message +`<a class="text-decoration-none" href="javascript:download('ftpt')">Click here to download</a></p>`;
+                                }
                             })
                         } else {
                             response.json().then((data) => {
@@ -186,8 +196,13 @@ function update(name, v) {
                 body: JSON.stringify({'name': name, 'version': v})}).then((response) => {
                     if (response.status === 200) {
                         response.json().then((data) => {
-                            document.getElementById("nv").innerHTML = `<p class="h5">Latest Version: `+ data.version +`</p>`;
-                            document.getElementById("message").innerHTML = `<p class="h5">`+ data.message +`<a class="text-decoration-none" href="javascript:download('tfx')">Click here</a></p>`;
+                            if (data.link === '#') {
+                                document.getElementById("nv").innerHTML = `<p class="h5">Latest Version: `+ data.version +`</p>`;
+                                document.getElementById("message").innerHTML = `<p class="h5">`+ data.message +`</p>`;
+                            } else {
+                                document.getElementById("nv").innerHTML = `<p class="h5">Latest Version: `+ data.version +`</p>`;
+                                document.getElementById("message").innerHTML = `<p class="h5">`+ data.message +`<a class="text-decoration-none" href="javascript:download('tfx')">Click here to download</a></p>`;
+                            }
                         })
                     } else {
                         response.json().then((data) => {
@@ -208,8 +223,13 @@ function update(name, v) {
                 body: JSON.stringify({'name': name, 'version': v})}).then((response) => {
                     if (response.status === 200) {
                         response.json().then((data) => {
-                            document.getElementById("nv").innerHTML = `<p class="h5">Latest Version: `+ data.version +`</p>`;
-                            document.getElementById("message").innerHTML = `<p class="h5">`+ data.message +`<a class="text-decoration-none" href="javascript:download('ftpt')">Click here</a></p>`;
+                            if (data.link === '#') {
+                                document.getElementById("nv").innerHTML = `<p class="h5">Latest Version: `+ data.version +`</p>`;
+                                document.getElementById("message").innerHTML = `<p class="h5">`+ data.message +`</p>`;
+                            } else {
+                                document.getElementById("nv").innerHTML = `<p class="h5">Latest Version: `+ data.version +`</p>`;
+                                document.getElementById("message").innerHTML = `<p class="h5">`+ data.message +`<a class="text-decoration-none" href="javascript:download('ftpt')">Click here to download</a></p>`;
+                            }
                         })
                     } else {
                         response.json().then((data) => {

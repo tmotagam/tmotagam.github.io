@@ -1,12 +1,12 @@
 <a href="javascript:startApp('sms')"><img src="/public/images/btn.b.webp" alt=""></a>
 <br>
-<h1 align = "center">Store Management System</h1>
+<h1 style="color: #b76957;" align = "center">Store Management System</h1>
 <p align = "center">System which works as electronic notebook for keeping records.</p>
 
 <br>
 
 ### Hi welcome to this guide 😃 :
-#### I have created this guide to help users who are new 👦 and old 👴 as well to help them use this software to its full potential.
+#### I have created this guide to help users who are new 👦 and old 👴 as well as to help them use this software to its full potential.
 #### This guide will help you for installing and using this software.
 
 <br>
@@ -19,30 +19,28 @@
 
 ## Installation Instructions
 
-### These are detailed installation instructions for this software to help you guide through the installation.
+### These are the detailed installation instructions to help you guide through the installation process.
 
-#### First click on the icon of the software once clicked it will open a window where you will see two options one is recommended as you can see in the 
-#### image given below choose the (Recommended option).
+#### First click on the icon of the software installer it will open a window where you will see two options.
+#### One is `Install for me only (Recommended)` and another one is `Install for all users`. 
+#### Choose the recommended option as it will not require any administrative permissions the other option will ask you for administrative permissions for installing and running the software.
 
 ![Installation Instruction](../../public/data/sms/i1.webp)
 
-#### Click the install for me option as it will not require any admin permissions if you want to install it as admin which is second option
-#### you will require the admin access for installing as well as for running the software.
-#### Once you choose the option then you have to agree on the license see in image below.
+#### Once you choose the option then you have to agree on the license like in the image below.
 
 ![Installation Instruction](../../public/data/sms/i2.webp)
 
-#### Once you agreed to the terms and conditions of the software click on next then you will get to choose the destination of the installation
-#### choose wherever you want to install the software and you have the required space for the software click next.
+#### Now choose the destination for installing the software.
 
 ![Installation Instruction](../../public/data/sms/i3.webp)
 
-#### Once you have selected the folder then choose if you want to have start menu folder or not. 
+#### Next select start menu option.
 #### The choice is yours. You can also change the folder`s name if you want then click next.
 
 ![Installation Instruction](../../public/data/sms/i4.webp)
 
-#### Once you have decided to have the start menu folder or not, then decide if you want the shortcut or not.
+#### Next select if you want the shortcut or not.
 
 ![Installation Instruction](../../public/data/sms/i5.webp)
 
@@ -50,15 +48,15 @@
 
 ![Installation Instruction](../../public/data/sms/i6.webp)
 
-#### Once installed the software you can run it.
+#### Once the process of installation is complete you can run the software.
 
 ![Installation Instruction](../../public/data/sms/i7.webp)
 
-### ⚠️ If you have selected the Admin option then uncheck the option shown in image above or you will run into a minor permission problems like the one in image below.
+### ⚠️ If you have selected the `Install for all users` option then uncheck the option shown above or you will run into a minor permission problem like the one shown below.
 
 ![Installation Instruction](../../public/data/sms/i8.webp)
 
-#### If you have selected the admin option then right click on the icon of Store Management System and click "RUN AS ADMINISTRATOR" to get rid of the problem 
+#### If you have selected the `Install for all users` option then right click on the icon of Store Management System and click `RUN AS ADMINISTRATOR` to open the application.
 
 <br>
 
@@ -70,118 +68,126 @@
 
 ![Usage Instruction](../../public/data/sms/u1.webp)
 
-#### If you have an database backup present click yes and select folder named ' Database_Backup ' and click select folder.
+#### If you have an database backup present click yes and select folder named `Database_Backup` and click select folder.
 
 ![Usage Instruction](../../public/data/sms/u2.webp)
 
-#### But if you do not have the backup present then click no and proceed for setup of the app.
-#### Once you clicked no you will get a greeting screen like this click on ok button.
+#### But if you do not have the backup click `No` button.
+#### Now you will get a greeting message shown below click on `Ok` button.
 
 ![Usage Instruction](../../public/data/sms/u3.webp)
 
-#### After the greeting you will be prompted to create account enter username and password of your choice.
+#### Next you will be prompted to create a Owner/Admin account create a username and a password for the account and click `Register` button.
 
 ![Usage Instruction](../../public/data/sms/u4.webp)
 
-#### Then click register after registeration you have to fill the details of your shop like name and shop reg number etc for reference see image below.
+#### Next enter your shop's name, shop's registeration number, mobile number, shop's address as shown below.
 
 ![Usage Instruction](../../public/data/sms/u5.webp)
 
-#### Then click on the save button to complete the registeration process remember this is only when you open the application for the first time.
+#### Then click on the save button to complete the registeration process.
 
 ![Usage Instruction](../../public/data/sms/u6.webp)
 
-#### Click the icon of the app to again open it remember if you have installed the app using admin permission you have to open the app using Run As Administrator.
-#### Then enter your own username and password.
+#### Click the icon of the app to open it. 
+#### Remember if you have installed the app using `Install for all users` you have to open the app using `Run As Administrator` option.
+#### Then enter the username and password.
 
 ![Usage Instruction](../../public/data/sms/u7.webp)
 
-#### If you have any employee then set a username and passowrd and click register to register the employee in the database for access for reference see image below.
+#### If you have any employee then set a username and passowrd and click register to register the employee in the database as shown below.
 
 ![Usage Instruction](../../public/data/sms/u8.webp)
 
-#### Once you have successfully logged in you will see the main menu which has the username, time and date.
+#### Once you have successfully logged in you will see the main page.
 
 ![Usage Instruction](../../public/data/sms/u9.webp)
 
-#### You can see the menu, lets explore these options one by one, first is products it has four sub options namely Add, Edit, Find and Delete products
-#### Let`s see the first Add product page.
+#### Let's explore the menubar options first is `Inventory Management` it has 4 sub option
+##### (1) Product Registration
+##### (2) Managing Product
+##### (3) Finding Product
+##### (4) Deleting Product
+
+### Let`s see the (1) Product Registration page.
 
 ![Usage Instruction](../../public/data/sms/u10.webp)
 
-#### In this page you can add product, to add one you have to give name, quantity, price of one unit and description and then you have to click the add the product button
-#### Once you have clicked the button you will get tax window in which you have to select one from three given option for reference see image below.
+#### On this page you can register product, you have to enter name, quantity, price/unit and description and then you have to click the register product button.
+#### Then the tax window will open in which you have to select one from three given option as shown below.
 
 ![Usage Instruction](../../public/data/sms/u11.webp)
 
-#### Now remember that if you add vat it will be added as percent for example if vat is 2% the app will store it as 0.02 same is true for the third option that is the other tax
-#### if you have any other tax in your country then you can add that tax as well it will ask for your confirmation before storing the products information.
+#### If you are adding `VAT` it will be added as a percentage same is true for the third option that is the other tax e.g If the vat is `2%` enter `2` in the vat entry see the above image for reference.
+
+### Let`s see the (2) Manage Product page.
+
+#### Previously for editing one field we have to edit all the fields now if we just want to edit one field we can do it easily no need to edit all the fields.
 
 ![Usage Instruction](../../public/data/sms/u12.webp)
 
-#### This is add product page lets go to edit products page.
+#### You can also edit tax information independently of every other fields.
 
 ![Usage Instruction](../../public/data/sms/u13.webp)
 
-#### In the edit page you have to first find the product before you can edit the info you have about the product.
-#### then you can change in the right hand side inputs once done click edit product once again you will get tax window to edit the information about tax.
+### Let`s see the (3) Find Product page.
 
 ![Usage Instruction](../../public/data/sms/u14.webp)
 
-#### Once done it will ask for your confirmation before storing the new information.
-#### Lets go to the Find products page.
+#### Enter the product name and it will give you the information about that product if available as shown above.
+### Let`s see the (4) Delete Product page.
 
 ![Usage Instruction](../../public/data/sms/u15.webp)
 
-#### Here you have to give name of the product and it will give you the information about that product for reference see image above.
-#### Lets go to the delete page.
+#### Enter the product name that you want to delete if the product exists it will delete it after taking confirmation from you.
+
+#### Now the second menubar option is `Point of Sale`.
 
 ![Usage Instruction](../../public/data/sms/u16.webp)
 
-#### Write the name of the product to delete if the product information exists it will delete it by confirming first.
-#### This was the inventory or product pages.
-#### Now to point of sale.
+#### Enter the product's name then click on the search button based on the availability of the product it will give you status of the product.
+#### It will also show you remaining quantity and price/unit enter the quantity required then click the `Add To Bill` button to add the product in the consumer bill.
+#### You can also change the quantity of the added product you have to click the `Change` button then a popup will appear as shown below
 
 ![Usage Instruction](../../public/data/sms/u17.webp)
 
-#### First enter the name of the product that you want then click on search if the product is available it will give available status
-#### it will also show quantity remaining and price of one unit then type the amount of the quantity required in the box then click the "add to bill" button to add the product in the bill.
-#### In this way you can add the products to the bill for customer.
-#### You can also change the quantity of the given product first you have to click the change button then a popup will appear see image below
+#### Click the product for which you want to change the quantity then enter the quantity and click on the `change` button to change the quantity.
+#### If you want a previously added product to be removed from the bill click on the `Delete from bill` button then a popup will appear for deleting the required product from bill.
 
 ![Usage Instruction](../../public/data/sms/u18.webp)
 
-#### Click the product for which you want to change the quantity then type quantity in the "quantity box" and click change to change the quantity.
-#### If you want a certain product to be removed from the bill click on the delete from bill button then a popup will appear for deleting the required product from bill
+#### Select the product and click on the `delete` button to delete the selected product.
+#### Once the order is completed click on the `Checkout` button to generate the bill and take payment from the customer.
 
 ![Usage Instruction](../../public/data/sms/u19.webp)
 
-#### select the product and click on delete button to delete the product.
-#### once the order is completed click on the checkout button to generate bill and take the payment from customer.
+#### Now click on the `Payment` button for the payment options, there are two options in the payment window one is for the `cash` method and other is for the `non-cash` methods.
 
 ![Usage Instruction](../../public/data/sms/u20.webp)
 
-#### Then click on the payment button for the payment options, there are two options in the payment window one is cash and one is card.
+#### Now Enter the amount if the consumer gives you cash or else click on the `Payment using other payment options` button.
+#### Once the payment is sucessful bill will be printed.
+
+#### Now the third menubar option is `Owner` this will only be available to the owner of the application and not to the employees.
+#### It has 2 sub option.
+##### (1) Sales Analytics page
+##### (2) Backup
 
 ![Usage Instruction](../../public/data/sms/u21.webp)
 
-#### Select the mode of payment and click 'done' if the mode is cash and click 'go' if the mode is card. Now the bill will be printed.
-
-#### This was the point of sale page now lets go to the sales page where you can see sales of your shop.
+### Let`s see the (1) Sales Analytics page.
+#### Enter name of employee or owner/your username to get all the sales the store has done till date as shown below.
 
 ![Usage Instruction](../../public/data/sms/u22.webp)
 
-#### You have to enter any employee name to get the sales he has done till date like in the image above remember only owners can see Sales of employee.
-#### Lets go to backup.
+### Let`s see the (2) Backup
+#### Click on the `owner` menu item and then click on the `backup` sub option to open the window as shown below to backup your data anywhere you like
 
 ![Usage Instruction](../../public/data/sms/u23.webp)
 
-#### Once you click the backup button in the menu you will get the folder selection window select the folder like in the image above.
-#### There is also a help menu introduced in the 1.0.5 version
+#### The last menubar option is `Help` option this has been updated for the new website
 
 ![Usage Instruction](../../public/data/sms/u24.webp)
-
-#### the menu contains the 1. Home page of this website. 2. Bug reporting 3. Update checking for the application.
 
 <br>
 
