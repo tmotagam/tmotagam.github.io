@@ -5,11 +5,15 @@ const v = urlParams.get('v');
 update(aname, v)
 
 function download(name) {
-    fetch('https://www.cloudflare.com/cdn-cgi/trace', {method: 'GET'}).then((response) => {
-        response.text().then((data) => {
+    let cip = '0.0.0.0'
+    fetch('https://www.cloudflare.com/cdn-cgi/trace', {method: 'GET'}).then(async (response) => {
+        try {
+            const data = await response.text()
             arr = data.split('=')[3];
             cip = arr.split('\n')[0];
-            fetch("https://server.aham.repl.co/app/download/"+name, {method: 'GET', headers: {'Accept': 'application/json', 'Content-Type': 'application/json', 'x-cip': cip}}).then(response => {
+        } catch (error) {}
+    }).catch(() => {})
+    fetch("https://server.aham.repl.co/app/download/"+name, {method: 'GET', headers: {'Accept': 'application/json', 'Content-Type': 'application/json', 'x-cip': cip}}).then(response => {
                 response.json().then((data) => {
                     var a = document.createElement('a');
                     a.href = data.link;
@@ -18,18 +22,6 @@ function download(name) {
                     a.remove();
                 });
             });
-        });
-    }).catch(() => {
-        fetch("https://server.aham.repl.co/app/download/"+name, {method: 'GET', headers: {'Accept': 'application/json', 'Content-Type': 'application/json', 'x-cip': '0.0.0.0'}}).then(response => {
-            response.json().then((data) => {
-                var a = document.createElement('a');
-                a.href = data.link;
-                document.body.appendChild(a);
-                a.click();
-                a.remove();
-            });
-        });
-    });
 };
 
 function update(name, v) {
@@ -45,9 +37,7 @@ function update(name, v) {
                 const data = await response.text()
                 arr = data.split('=')[3];
                 x_cip = arr.split('\n')[0];
-            } catch (error) {
-                
-            }
+            } catch (error) {}
         }).catch( () => {});
 
         if (name == 'sms') {
