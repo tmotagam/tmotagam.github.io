@@ -4,18 +4,18 @@
 <a href="javascript:download('ftpt')"><img src="/public/images/btn.d.webp" alt=""></a>
 
 ### Summary
-FTPT is a file transfer system based on ftp protocol you can transfer the file (any size) between pc to pc and pc to android.
+FTPT is a file transfer system based on ftp protocol you can transfer the files or folders (any size) between pc to pc and pc to android.
 
 <br>
 
-### Latest Version -> 1.0.1
+### Latest Version -> 1.0.5
 
 #### Minor Changes
 1. UI improvements
+2. Minor Fixes
 
 #### What`s new
-1. Now server will ask about new users before they are connected
-2. Added Trust list Database
+1. Upload and download mulitple folders
 
 <br>
 
@@ -25,7 +25,7 @@ FTPT is a file transfer system based on ftp protocol you can transfer the file (
 |---|---|---|
 | 1. Secure connection for transfer  |   | 2. Easy to use  |
 |   |   |   |   |   |
-| 3. Fast data transfer  |   | 4. Trust List  |
+| 3. Fast data transfer  |   | 4. Trust List database  |
 
 <br>
 
