@@ -3,29 +3,21 @@ const app = urlParams.get('d');
 startApp(app)
 
 function download(name) {
-    fetch('https://www.cloudflare.com/cdn-cgi/trace', {method: 'GET'}).then((response) => {
-        response.text().then((data) => {
+    let cip = '0.0.0.0'
+    fetch('https://www.cloudflare.com/cdn-cgi/trace', {method: 'GET'}).then(async (response) => {
+        try {
+            const data = await response.text()
             arr = data.split('=')[3];
             cip = arr.split('\n')[0];
-            fetch("https://server.aham.repl.co/app/download/"+name, {method: 'GET', headers: {'Accept': 'application/json', 'Content-Type': 'application/json', 'x-cip': cip}}).then(response => {
-                response.json().then((data) => {
-                    var a = document.createElement('a');
-                    a.href = data.link;
-                    document.body.appendChild(a);
-                    a.click();
-                    a.remove();
-                });
-            });
-        });
-    }).catch(() => {
-        fetch("https://server.aham.repl.co/app/download/"+name, {method: 'GET', headers: {'Accept': 'application/json', 'Content-Type': 'application/json', 'x-cip': '0.0.0.0'}}).then(response => {
-            response.json().then((data) => {
-                var a = document.createElement('a');
-                a.href = data.link;
-                document.body.appendChild(a);
-                a.click();
-                a.remove();
-            });
+        } catch (error) {}
+    }).catch(() => {});
+    fetch("https://server.aham.repl.co/app/download/"+name, {method: 'GET', headers: {'Accept': 'application/json', 'Content-Type': 'application/json', 'x-cip': cip}}).then(response => {
+        response.json().then((data) => {
+            var a = document.createElement('a');
+            a.href = data.link;
+            document.body.appendChild(a);
+            a.click();
+            a.remove();
         });
     });
 };
