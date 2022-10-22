@@ -1,21 +1,34 @@
-loadScriptAsync = (callback) => {
-    if (typeof callback !== 'function') {
-        throw new Error('Not a valid callback for async script load');
-    }
-    const script = document.createElement('script');
-    script.onload = callback;
-    script.src = 'https://www.google-analytics.com/analytics.js';
-    document.head.appendChild(script);
+window.dataLayer = window.dataLayer || [];
+function gtag() { dataLayer.push(arguments); }
 
-    const tag = document.createElement('script');
-    tag.onload = callback;
-    tag.src = 'https://www.googletagmanager.com/gtag/js?id=G-FYVC394K6N';
-    document.head.appendChild(tag);
+const loadScriptAsync = (callback) => {
+  if (typeof callback !== 'function') {
+    throw new Error('Not a valid callback for async script load');
+  }
+  const script = document.createElement('script');
+  script.onload = callback;
+  script.src = 'https://www.google-analytics.com/analytics.js';
+  document.head.appendChild(script);
+
+  const tag = document.createElement('script');
+  tag.onload = callback;
+  tag.src = 'https://www.googletagmanager.com/gtag/js?id=G-FYVC394K6N';
+  document.head.appendChild(tag);
 }
 
 loadScriptAsync(() => {
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'G-FYVC394K6N');
+  gtag('js', new Date());
+  gtag('config', 'G-FYVC394K6N');
 })
+
+async function clid() {
+  return new Promise((resolve) => {
+    const timeout = setTimeout(() => {
+      resolve(undefined);
+    }, "1000")
+    gtag('get', 'G-FYVC394K6N', 'client_id', (h) => {
+      clearTimeout(timeout)
+      resolve(h)
+    })
+  })
+}
