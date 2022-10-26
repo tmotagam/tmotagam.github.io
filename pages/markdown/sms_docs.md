@@ -168,10 +168,11 @@
 #### Now Enter the amount if the consumer gives you cash or else click on the `Payment using other payment options` button.
 #### Once the payment is sucessful bill will be printed.
 
-#### Now the third menubar option is `Owner` this will only be available to the owner of the application and not to the employees.
-#### It has 2 sub option.
+#### Now the third menubar option is `Owner` this will only be available to the owner of the application.
+#### It has 3 sub option.
 ##### (1) Sales Analytics page
 ##### (2) Backup
+##### (3) Account
 
 ![Usage Instruction](../../public/data/sms/u21.webp)
 
@@ -185,9 +186,31 @@
 
 ![Usage Instruction](../../public/data/sms/u23.webp)
 
-#### The last menubar option is `Help` option this has been updated for the new website
+### Let`s see the (3) Account
+#### Click on the owner menu item and then click on the `Account` sub option to reveal two other sub options `Change Username` and `Change Password` to change your username and password as shown below
 
 ![Usage Instruction](../../public/data/sms/u24.webp)
+
+#### Now the third menubar option is `Employee` this will only be available to the employees.
+#### It has 2 sub option.
+##### (1) Sales Analytics page
+##### (2) Account
+
+![Usage Instruction](../../public/data/sms/u25.webp)
+
+### Let`s see the (1) Sales Analytics page.
+#### It will get all the todays sales record of that particular employee as shown below.
+
+![Usage Instruction](../../public/data/sms/u26.webp)
+
+### Let`s see the (2) Account
+#### Click on the employee menu item and then click on the `Account` sub option to reveal two other sub options `Change Username` and `Change Password` to change your username and password as shown below
+
+![Usage Instruction](../../public/data/sms/u27.webp)
+
+#### The last menubar option is `Help` option this has been updated for the new website
+
+![Usage Instruction](../../public/data/sms/u28.webp)
 
 <br>
 

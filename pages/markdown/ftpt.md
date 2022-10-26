@@ -3,6 +3,8 @@
 
 <a href="javascript:download('ftpt')"><img src="/public/images/btn.d.webp" alt=""></a>
 
+<h3 style="background: linear-gradient(to right, #f32170, #ff6b08, #cf23cf, #ef8c22); -webkit-text-fill-color: transparent; background-clip: text; -webkit-background-clip: text; padding-right: 3.5px;">Last Updated: 06-19-2022</h3>
+
 ### Summary
 FTPT is a file transfer system based on ftp protocol you can transfer the files or folders (any size) between pc to pc and pc to android.
 

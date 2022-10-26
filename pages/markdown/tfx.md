@@ -3,6 +3,8 @@
 
 <a href="javascript:download('tfx')"><img src="/public/images/btn.d.webp" alt=""></a>
 
+<h3 style="background: linear-gradient(to right, #f32170, #ff6b08, #cf23cf, #ef8c22); -webkit-text-fill-color: transparent; background-clip: text; -webkit-background-clip: text; padding-right: 3.5px;">Last Updated: 05-12-2022</h3>
+
 ### Summary
 It works as electronic book for keeping attendance records using face identification\recognition technology.
 
