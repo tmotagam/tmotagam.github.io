@@ -50,7 +50,7 @@
 
 ![Installation Instruction](../../public/data/tfx/i6.webp)
 
-#### While installing you have to install the webview2 Runtime as it is the required library
+#### While installing you have to install the webview2 Runtime as it is a required library
 #### once installed the installation will procced as usual.
 
 ![Installation Instruction](../../public/data/tfx/i7.webp)
@@ -59,7 +59,7 @@
 
 ![Installation Instruction](../../public/data/tfx/i8.webp)
 
-### ⚠️ If you have selected the Admin option then uncheck the option shown in image above or you will run into a minor permission problem but it will be a silent error. ⚠️
+### ⚠️ If you have selected the Admin option then uncheck the option shown in image above or you will run into a minor permission problem but it will be a silent error.
 
 ### If you have selected the admin option then right click on the icon of TahaFacex and click "RUN AS ADMINISTRATOR" to get rid of the problem
 
@@ -115,17 +115,47 @@
 
 ![Usage Instruction](../../public/data/tfx/u10.webp)
 
-#### You can also add one person/employee/student using the Add new person as shown below
+#### You can also add, edit and delete a person/employee/student using the Person management as shown below
 
 ![Usage Instruction](../../public/data/tfx/u11.webp)
 
-#### We are using the example as a name then click on add person then you will get a message from the app telling you to procced to the image capturing of the person/student/employee as shown below.
+#### Adding a person/employee/student.
 
 ![Usage Instruction](../../public/data/tfx/u12.webp)
 
-#### click on the ok button and then give permission to the application to capture image as shown below.
+#### We are using the example as a name then click on add person then you will get a message from the app telling you to procced to the image capturing of the person/student/employee as shown below.
 
 ![Usage Instruction](../../public/data/tfx/u13.webp)
+
+#### click on the ok button and then give permission to the application to capture image as shown below.
+
+![Usage Instruction](../../public/data/tfx/u14.webp)
+
+#### Editing a person/employee/student data
+
+#### It requires unique id of the person/employee/student to find them in database and fetch all the details.
+
+![Usage Instruction](../../public/data/tfx/u15.webp)
+
+#### Here we have fetch details of the example. We can change their image and name in the database as shown.
+
+![Usage Instruction](../../public/data/tfx/u16.webp)
+
+#### Deleting a person/employee/student data
+
+#### It requires unique id of the person/employee/student to delete their record from the database.
+
+![Usage Instruction](../../public/data/tfx/u17.webp)
+
+#### You can also save the attendance record of the person/employee/student if you want as shown below.
+
+![Usage Instruction](../../public/data/tfx/u18.webp)
+
+#### Then choose the folder for saving the record of the deleted person/employee/student.
+
+![Usage Instruction](../../public/data/tfx/u19.webp)
+
+#### NOTE: Do be careful as deleting the person will change all the subsequent person/employee/student unique id eg. if you delete unique id 1 the unique id 2 will become 1 and 3 will be 2.
 
 #### Now lets explore the student/person/employee portal as well
 
@@ -133,23 +163,28 @@
 
 #### Enter the code in the login page and go to the attendance page as shown below.
 
-![Usage Instruction](../../public/data/tfx/u14.webp)
+![Usage Instruction](../../public/data/tfx/u20.webp)
+
 
 #### The attendance page has only one option to mark the person/student/employee attendance
 
-![Usage Instruction](../../public/data/tfx/u15.webp)
+![Usage Instruction](../../public/data/tfx/u21.webp)
 
 #### Once they click on the button the app will ask for the camera permission and take the photo of the employee/person/student face.
 
-![Usage Instruction](../../public/data/tfx/u16.webp)
+![Usage Instruction](../../public/data/tfx/u22.webp)
 
 #### Then the image goes to the AI for recognizing the student/employee/person in the image.
 
 #### As we have used example in this docs the AI perfectly recognize the example in the image and gives message as shown.
 
-![Usage Instruction](../../public/data/tfx/u17.webp)
+![Usage Instruction](../../public/data/tfx/u23.webp)
 
 #### Once you confim that the person/employee/student is example it will mark the attendance of the example in the excel sheet.
+
+#### We have included the help menu which will take you to this guide help you in checking new versions and also allowing you to report bugs or problems.
+
+![Usage Instruction](../../public/data/tfx/u24.webp)
 
 <br>
 
