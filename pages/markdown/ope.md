@@ -1,14 +1,15 @@
-<h1 style="color: #01a5a4;" align = "center">Online Protracted Examination System</h1>
+<h1 style="color: #00b4ff;" align = "center">Online Protracted Examination System</h1>
 <p align = "center">Secure System for online examination.</p>
 
 <a href="javascript:download('ope')"><img src="/public/images/btn.d.webp" alt=""></a>
 
-<h3 style="background: linear-gradient(to right, #f32170, #ff6b08, #cf23cf, #ef8c22); -webkit-text-fill-color: transparent; background-clip: text; -webkit-background-clip: text; padding-right: 3.5px;">Last Updated: 11-15-2020</h3>
+<h3 style="background: linear-gradient(to right, #f32170, #ff6b08, #cf23cf, #ef8c22); -webkit-text-fill-color: transparent; background-clip: text; -webkit-background-clip: text; padding-right: 3.5px;">Last Updated: 04-05-2023</h3>
 
 ### Summary
-Create kiosk mode on the user computer to block user from using specific keys to cheat in the exam
 
-It supports all the major browser
+OPE is a very secure examination system allows you to create exams, evaluate papers and examinees recordings,
+
+examinees and give exams from any windows PC from anywhere, verify moderators and examinees before giving them access to there accounts.
 
 <br>
 
@@ -18,13 +19,16 @@ It supports all the major browser
 
 ### Features
 
-|   |   |   |
-|---|---|---|
-| 1. Secure  |   | 2. Create kiosk browser and system  |
-|   |   |   |   |   |
-| 3. Easy to use  |
+|                                    |     |                                         |
+| ---------------------------------- | --- | --------------------------------------- |
+| 1. Secure                          |     | 2. Create exams                         |
+|                                    |     |                                         |
+| 3. Easy to use                     |     | 4. Evaluate Exam Papers                 |
+|                                    |     |                                         |
+| 5. Verify examinees and moderators |     | 6. Give exams from any windows computer |
 
 <br>
 
 ### License
+
 GNU General Public License version 3.0 (GPLv3)
