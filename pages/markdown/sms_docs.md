@@ -95,10 +95,6 @@
 
 ![Usage Instruction](../../public/data/sms/u7.webp)
 
-#### If you have any employee then set a username and passowrd and click register to register the employee in the database as shown below.
-
-![Usage Instruction](../../public/data/sms/u8.webp)
-
 #### Once you have successfully logged in you will see the main page.
 
 ![Usage Instruction](../../public/data/sms/u9.webp)
@@ -169,10 +165,12 @@
 #### Once the payment is sucessful bill will be printed.
 
 #### Now the third menubar option is `Owner` this will only be available to the owner of the application.
-#### It has 3 sub option.
+#### It has 5 sub option.
 ##### (1) Sales Analytics page
 ##### (2) Backup
 ##### (3) Account
+##### (4) Manage Employees
+##### (5) Edit Store Info
 
 ![Usage Instruction](../../public/data/sms/u21.webp)
 
@@ -191,26 +189,38 @@
 
 ![Usage Instruction](../../public/data/sms/u24.webp)
 
+### Let`s see the (4) Manage Employees
+#### Click on the owner menu item and then click on the `Manage Employees` sub option to reveal two other sub options `Add Employees` and `Delete Employees` to add or remove employees as shown below
+
+![Usage Instruction](../../public/data/sms/u25_1.webp)
+
+![Usage Instruction](../../public/data/sms/u25_2.webp)
+
+### Let`s see the (5) Edit store info
+#### Click on the owner menu item and then click on the `Edit store info` sub option to edit your store information show below
+
+![Usage Instruction](../../public/data/sms/u26.webp)
+
 #### Now the third menubar option is `Employee` this will only be available to the employees.
 #### It has 2 sub option.
 ##### (1) Sales Analytics page
 ##### (2) Account
 
-![Usage Instruction](../../public/data/sms/u25.webp)
+![Usage Instruction](../../public/data/sms/u27.webp)
 
 ### Let`s see the (1) Sales Analytics page.
 #### It will get all the todays sales record of that particular employee as shown below.
 
-![Usage Instruction](../../public/data/sms/u26.webp)
+![Usage Instruction](../../public/data/sms/u28.webp)
 
 ### Let`s see the (2) Account
 #### Click on the employee menu item and then click on the `Account` sub option to reveal two other sub options `Change Username` and `Change Password` to change your username and password as shown below
 
-![Usage Instruction](../../public/data/sms/u27.webp)
+![Usage Instruction](../../public/data/sms/u29.webp)
 
 #### The last menubar option is `Help` option this has been updated for the new website
 
-![Usage Instruction](../../public/data/sms/u28.webp)
+![Usage Instruction](../../public/data/sms/u30.webp)
 
 <br>
 

@@ -3,7 +3,7 @@
 
 <a href="javascript:download('sms')"><img src="/public/images/btn.d.webp" alt=""></a>
 
-<h3 style="background: linear-gradient(to right, #f32170, #ff6b08, #cf23cf, #ef8c22); -webkit-text-fill-color: transparent; background-clip: text; -webkit-background-clip: text; padding-right: 3.5px;">Last Updated: 10-26-2022</h3>
+<h3 style="background: linear-gradient(to right, #f32170, #ff6b08, #cf23cf, #ef8c22); -webkit-text-fill-color: transparent; background-clip: text; -webkit-background-clip: text; padding-right: 3.5px;">Last Updated: 06-27-2023</h3>
 
 ### Summary
 
@@ -15,25 +15,25 @@ You can also see guide for Store Management System down below
 
 <br>
 
-### Latest Version -> 1.0.8
+### Latest Version -> 1.8.0
 
 #### What`s new
 
-Account management added for employees and owners.
+Employees can be added or removed by the owner.
 
-Employees can now see their today's sales record.
+Now owner can edit store information.
 
 <br>
 
 ### Features
 
-|                                |     |                         |
-| ------------------------------ | --- | ----------------------- | --- | --- |
-| 1. Billing system / POS        |     | 2. Sales Analytics      |
-|                                |     |                         |     |     |
-| 3. Autocompletion for products |     | 4. Inventory Management |
-|                                |     |                         |     |     |
-| 5. Backup and Restore          |
+|                                    |     |                                         |
+| ---------------------------------- | --- | --------------------------------------- |
+| 1. Billing system / POS            |     | 2. Sales Analytics                      |
+|                                    |     |                                         |
+| 3. Autocompletion                  |     | 4. Inventory Management                 |
+|                                    |     |                                         |
+| 5. Backup and Restore              |     | 6. Manage employees                     |
 
 <br>
 
