@@ -90,72 +90,84 @@
 
 ![Usage Instruction](../../public/data/tfx/u5.webp)
 
-#### If you had given the backup of your files then enter the code and use the software if not then go to the code registration
+<!-- #### If you had given the backup of your files then enter the code and use the software if not then go to the code registration -->
+
+<!-- ![Usage Instruction](../../public/data/tfx/u6.webp) -->
+
+<!-- #### Enter a unique code and number of people you want to have in that code/class/department. -->
+<!-- #### Then enter your password and click on register. The class/code/department will be created and you will get message as shown below. -->
+
+<!-- ![Usage Instruction](../../public/data/tfx/u7.webp) -->
+
+#### Enter your username and password to login to manage your CODE your create a new one
 
 ![Usage Instruction](../../public/data/tfx/u6.webp)
 
-#### Enter a unique code and number of people you want to have in that code/class/department.
-#### Then enter your password and click on register. The class/code/department will be created and you will get message as shown below.
+#### In Manager Portal you can create new CODE manage any existing CODE and delete the CODE also create backup help and export attendence registers of all the CODE
 
 ![Usage Instruction](../../public/data/tfx/u7.webp)
 
-#### Enter the newly created code and the username and password in the login screen.
+#### First we will do a CODE registeration on the CODE registeration Page.
+
+#### We will enter a unique code and number of people (Now you can have more than 100 people/students/employees) you want to have in that code/class/department and click register to register the CODE.
 
 ![Usage Instruction](../../public/data/tfx/u8.webp)
 
-#### Click on the login button to login as an manager/admin/teacher and you will go to the manager/admin/teacher portal/page
+#### Second we will Manage the CODE Enter the CODE and get to the Manage CODE page.
+
+#### Attendance Register shows you the attendence excel sheets.
+
+#### You can export the attendence register of this CODE by clicking on the export attendence register button
+
+#### Person management allows you to manage person/student/employee.
 
 ![Usage Instruction](../../public/data/tfx/u9.webp)
 
-#### You can export the attendance sheets of the one particular class/code/department or all the classes/codes/departments in one go.
-
-#### You can also click on the attendance register button to see the excel file of the code/class/department.
-
-#### From the menu above you can also create backup of your data as shown below.
+#### Let`s see how to use the Person management
 
 ![Usage Instruction](../../public/data/tfx/u10.webp)
 
-#### You can also add, edit and delete a person/employee/student using the Person management as shown below
+#### Adding a person/employee/student.
 
 ![Usage Instruction](../../public/data/tfx/u11.webp)
 
-#### Adding a person/employee/student.
+#### We are using the example as a name then click on add person then you will get a message from the app telling you to procced to the image capturing of the person/student/employee as shown below.
 
 ![Usage Instruction](../../public/data/tfx/u12.webp)
 
-#### We are using the example as a name then click on add person then you will get a message from the app telling you to procced to the image capturing of the person/student/employee as shown below.
-
-![Usage Instruction](../../public/data/tfx/u13.webp)
-
 #### click on the ok button and then give permission to the application to capture image as shown below.
 
-![Usage Instruction](../../public/data/tfx/u14.webp)
+![Usage Instruction](../../public/data/tfx/u13.webp)
 
 #### Editing a person/employee/student data
 
 #### It requires unique id of the person/employee/student to find them in database and fetch all the details.
 
-![Usage Instruction](../../public/data/tfx/u15.webp)
+![Usage Instruction](../../public/data/tfx/u14.webp)
 
 #### Here we have fetch details of the example. We can change their image and name in the database as shown.
 
-![Usage Instruction](../../public/data/tfx/u16.webp)
+![Usage Instruction](../../public/data/tfx/u15.webp)
 
 #### Deleting a person/employee/student data
 
 #### It requires unique id of the person/employee/student to delete their record from the database.
 
-![Usage Instruction](../../public/data/tfx/u17.webp)
+![Usage Instruction](../../public/data/tfx/u16.webp)
 
 #### You can also save the attendance record of the person/employee/student if you want as shown below.
 
-![Usage Instruction](../../public/data/tfx/u18.webp)
+![Usage Instruction](../../public/data/tfx/u17.webp)
 
 #### Then choose the folder for saving the record of the deleted person/employee/student.
 
-![Usage Instruction](../../public/data/tfx/u19.webp)
+![Usage Instruction](../../public/data/tfx/u18.webp)
 
-#### NOTE: Do be careful as deleting the person will change all the subsequent person/employee/student unique id eg. if you delete unique id 1 the unique id 2 will become 1 and 3 will be 2.
+#### NOTE: Do be careful as deleting the person it will change all the subsequent person/employee/student unique id eg. if you delete unique id 1 the unique id 2 will become 1 and 3 will be 2.
+
+#### Third is delete code we will enter the CODE it will delete the entire CODE along with all the data about that CODE.
+
+![Usage Instruction](../../public/data/tfx/u19.webp)
 
 #### Now lets explore the student/person/employee portal as well
 
