@@ -1,7 +1,7 @@
 <h1 style="color: #c999e8;" align="center">TahaFacex</h1>
 <p align = "center">It works as electronic book for keeping attendance records.</p>
 
-<a href="javascript:download('tfx')"><img src="/public/images/btn.d.webp" alt=""></a>
+<a target="_blank" href="https://mega.nz/file/ZrkAwYaS#xbvx1RDxk0bBYwX3qM5hiJFAF3Aq-flUEntc0gvrtI8"><img src="/public/images/btn.d.webp" alt=""></a>
 
 <h3 style="background: linear-gradient(to right, #f32170, #ff6b08, #cf23cf, #ef8c22); -webkit-text-fill-color: transparent; background-clip: text; -webkit-background-clip: text; padding-right: 3.5px;">Last Updated: 07-16-2023</h3>
 
@@ -10,7 +10,7 @@ It works as electronic book for keeping attendance records using face identifica
 
 It can be used anywhere.
 
-<a href="javascript:startApp('tfx_docs')"><img src="/public/images/btn.g.webp" alt=""></a>
+<a href="../tfx_docs"><img src="/public/images/btn.g.webp" alt=""></a>
 
 <br>
 

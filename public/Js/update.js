@@ -4,149 +4,81 @@ const v = urlParams.get('v');
 
 update(aname, v)
 
-async function download(name) {
-    const clientid = await clid()
-    document.getElementById('dl').innerHTML += `<a id="download-link" href="https://server.aham.repl.co/app/download/${name}/${typeof clientid !== 'string' ? '0' : clientid}"></a>`
-    document.getElementById('download-link').click()
-    document.getElementById('download-link').remove()
-};
+const re = /^(0|[1-9]\d*)\.(0|[1-9]\d*)\.(0|[1-9]\d*)(?:-((?:0|[1-9]\d*|\d*[a-zA-Z-][0-9a-zA-Z-]*)(?:\.(?:0|[1-9]\d*|\d*[a-zA-Z-][0-9a-zA-Z-]*))*))?(?:\+([0-9a-zA-Z-]+(?:\.[0-9a-zA-Z-]+)*))?$/gm
+
+async function updatechecker(name, v) {
+    const { compare } = window.compareVersions
+    let d = {message: '', version: '', link: ''}
+    const data = await (await fetch('./data.json')).json()
+    Object.entries(data).forEach(([key, value]) => {
+        if (name === key) {
+            if(re.test(v)) {
+                if (compare(v, value, '<')) {
+                    d =  {message: 'New version is available ', version: value, link: '$'};
+                } else if (compare(v, value, '=')) {
+                    d = {message: 'Your application is latest no need to update it', version: value, link: '#'};
+                } else {
+                    d = {message: 'Error: Enter the parameters correctly', version: value, link: '#'};
+                }
+            } else {
+                d = {message: 'Error: Enter the parameters correctly', version: value, link: '#'};
+            }
+        }
+    });
+    return d
+}
 
 async function update(name, v) {
-    const clientid = await clid()
-    if (v == null || v == '' || v == " ") {
+    if (v == null || v.trim().length === 0) {
         return document.getElementById("name").innerHTML = `<p class="h5">Error: Invalid parameters</p>`;
     }
-    if (name == null || name == '' || name == " ") {
+    if (name == null || name.trim().length === 0) {
         return document.getElementById("name").innerHTML = `<p class="h5">Error: Invalid parameters</p>`;
     } else {
         if (name == 'sms') {
             document.getElementById("name").innerHTML = `<p class="h5">Application: Store Management System</p>`;
             document.getElementById("userv").innerHTML = `<p class="h5">Your App version: ` + v + `</p>`;
-            fetch("https://server.aham.repl.co/app/update", {
-                method: 'POST',
-                headers: {
-                    'Accept': 'application/json',
-                    'Content-Type': 'application/json',
-                },
-                body: JSON.stringify({ 'name': name, 'version': v, 'clientid': typeof clientid !== 'string' ? '0' : clientid })
-            }).then((response) => {
-                if (response.status === 200) {
-                    response.json().then((data) => {
-                        if (data.link === '#') {
-                            document.getElementById("nv").innerHTML = `<p class="h5">Latest Version: ` + data.version + `</p>`;
-                            document.getElementById("message").innerHTML = `<p class="h5">` + data.message + `</p>`;
-                        } else {
-                            document.getElementById("nv").innerHTML = `<p class="h5">Latest Version: ` + data.version + `</p>`;
-                            document.getElementById("message").innerHTML = `<p class="h5">` + data.message + `<a class="text-decoration-none" href="javascript:download('sms')">Click here to download</a></p>`;
-                        }
-                    })
-                } else if (response.status === 404) {
-                    response.json().then((data) => {
-                        document.getElementById("nv").innerHTML = `<p class="h5">Latest Version: ` + data.version + `</p>`;
-                        document.getElementById("message").innerHTML = `<p class="h5">` + data.message + `</p>`;
-                    })
-                } else {
-                    response.json().then((data) => {
-                        document.getElementById("message").innerHTML = `<p class="h5">` + data.error + `</p>`;
-                    })
-                }
-            });
+            const data = await updatechecker(name, v);
+            if (data.link === '#') {
+                document.getElementById("nv").innerHTML = `<p class="h5">Latest Version: ` + data.version + `</p>`;
+                document.getElementById("message").innerHTML = `<p class="h5">` + data.message + `</p>`;
+            } else {
+                document.getElementById("nv").innerHTML = `<p class="h5">Latest Version: ` + data.version + `</p>`;
+                document.getElementById("message").innerHTML = `<p class="h5">` + data.message + `<a class="text-decoration-none" target="_blank" href="https://mega.nz/file/p3tCQBLZ#EHVdcZD6DmvIoOjqHRSykRTGWxkpyP9vmTPzBqRpUxI">Click here to download</a></p>`;
+            }
         } else if (name == 'tfx') {
             document.getElementById("name").innerHTML = `<p class="h5">Application: Tahafacex</p>`;
             document.getElementById("userv").innerHTML = `<p class="h5">Your App version: ` + v + `</p>`;
-            fetch("https://server.aham.repl.co/app/update", {
-                method: 'POST',
-                headers: {
-                    'Accept': 'application/json',
-                    'Content-Type': 'application/json',
-                },
-                body: JSON.stringify({ 'name': name, 'version': v, 'clientid': typeof clientid !== 'string' ? '0' : clientid })
-            }).then((response) => {
-                if (response.status === 200) {
-                    response.json().then((data) => {
-                        if (data.link === '#') {
-                            document.getElementById("nv").innerHTML = `<p class="h5">Latest Version: ` + data.version + `</p>`;
-                            document.getElementById("message").innerHTML = `<p class="h5">` + data.message + `</p>`;
-                        } else {
-                            document.getElementById("nv").innerHTML = `<p class="h5">Latest Version: ` + data.version + `</p>`;
-                            document.getElementById("message").innerHTML = `<p class="h5">` + data.message + `<a class="text-decoration-none" href="javascript:download('tfx')">Click here to download</a></p>`;
-                        }
-                    })
-                } else if (response.status === 404) {
-                    response.json().then((data) => {
-                        document.getElementById("nv").innerHTML = `<p class="h5">Latest Version: ` + data.version + `</p>`;
-                        document.getElementById("message").innerHTML = `<p class="h5">` + data.message + `</p>`;
-                    })
-                } else {
-                    response.json().then((data) => {
-                        document.getElementById("message").innerHTML = `<p class="h5">` + data.error + `</p>`;
-                    })
-                }
-            });
+            const data = await updatechecker(name, v);
+            if (data.link === '#') {
+                document.getElementById("nv").innerHTML = `<p class="h5">Latest Version: ` + data.version + `</p>`;
+                document.getElementById("message").innerHTML = `<p class="h5">` + data.message + `</p>`;
+            } else {
+                document.getElementById("nv").innerHTML = `<p class="h5">Latest Version: ` + data.version + `</p>`;
+                document.getElementById("message").innerHTML = `<p class="h5">` + data.message + `<a class="text-decoration-none" target="_blank" href="https://mega.nz/file/ZrkAwYaS#xbvx1RDxk0bBYwX3qM5hiJFAF3Aq-flUEntc0gvrtI8">Click here to download</a></p>`;
+            }
         } else if (name == 'ftpt') {
             document.getElementById("name").innerHTML = `<p class="h5">Application: FTPT</p>`;
             document.getElementById("userv").innerHTML = `<p class="h5">Your App version: ` + v + `</p>`;
-            fetch("https://server.aham.repl.co/app/update", {
-                method: 'POST',
-                headers: {
-                    'Accept': 'application/json',
-                    'Content-Type': 'application/json',
-                },
-                body: JSON.stringify({ 'name': name, 'version': v, 'clientid': typeof clientid !== 'string' ? '0' : clientid })
-            }).then((response) => {
-                if (response.status === 200) {
-                    response.json().then((data) => {
-                        if (data.link === '#') {
-                            document.getElementById("nv").innerHTML = `<p class="h5">Latest Version: ` + data.version + `</p>`;
-                            document.getElementById("message").innerHTML = `<p class="h5">` + data.message + `</p>`;
-                        } else {
-                            document.getElementById("nv").innerHTML = `<p class="h5">Latest Version: ` + data.version + `</p>`;
-                            document.getElementById("message").innerHTML = `<p class="h5">` + data.message + `<a class="text-decoration-none" href="javascript:download('ftpt')">Click here to download</a></p>`;
-                        }
-                    })
-                } else if (response.status === 404) {
-                    response.json().then((data) => {
-                        document.getElementById("nv").innerHTML = `<p class="h5">Latest Version: ` + data.version + `</p>`;
-                        document.getElementById("message").innerHTML = `<p class="h5">` + data.message + `</p>`;
-                    })
-                } else {
-                    response.json().then((data) => {
-                        document.getElementById("message").innerHTML = `<p class="h5">` + data.error + `</p>`;
-                    })
-                }
-            });
+            const data = await updatechecker(name, v);
+            if (data.link === '#') {
+                document.getElementById("nv").innerHTML = `<p class="h5">Latest Version: ` + data.version + `</p>`;
+                document.getElementById("message").innerHTML = `<p class="h5">` + data.message + `</p>`;
+            } else {
+                document.getElementById("nv").innerHTML = `<p class="h5">Latest Version: ` + data.version + `</p>`;
+                document.getElementById("message").innerHTML = `<p class="h5">` + data.message + `<a class="text-decoration-none" target="_blank" href="https://mega.nz/file/kn0l3CSI#qw9AH1xWJDplQcEBpDhTzfX5nIv9K0J0AQWBNQTThxc">Click here to download</a></p>`;
+            }
         } else if (name == 'ope') {
             document.getElementById("name").innerHTML = `<p class="h5">Application: Online Protracted Examination System</p>`;
             document.getElementById("userv").innerHTML = `<p class="h5">Your App version: ` + v + `</p>`;
-            fetch("https://server.aham.repl.co/app/update", {
-                method: 'POST',
-                headers: {
-                    'Accept': 'application/json',
-                    'Content-Type': 'application/json',
-                },
-                body: JSON.stringify({ 'name': name, 'version': v, 'clientid': typeof clientid !== 'string' ? '0' : clientid })
-            }).then((response) => {
-                if (response.status === 200) {
-                    response.json().then((data) => {
-                        if (data.link === '#') {
-                            document.getElementById("nv").innerHTML = `<p class="h5">Latest Version: ` + data.version + `</p>`;
-                            document.getElementById("message").innerHTML = `<p class="h5">` + data.message + `</p>`;
-                        } else {
-                            document.getElementById("nv").innerHTML = `<p class="h5">Latest Version: ` + data.version + `</p>`;
-                            document.getElementById("message").innerHTML = `<p class="h5">` + data.message + `<a class="text-decoration-none" href="javascript:download('ope')">Click here to download</a></p>`;
-                        }
-                    })
-                } else if (response.status === 404) {
-                    response.json().then((data) => {
-                        document.getElementById("nv").innerHTML = `<p class="h5">Latest Version: ` + data.version + `</p>`;
-                        document.getElementById("message").innerHTML = `<p class="h5">` + data.message + `</p>`;
-                    })
-                } else {
-                    response.json().then((data) => {
-                        document.getElementById("message").innerHTML = `<p class="h5">` + data.error + `</p>`;
-                    })
-                }
-            });
+            const data = await updatechecker(name, v);
+            if (data.link === '#') {
+                document.getElementById("nv").innerHTML = `<p class="h5">Latest Version: ` + data.version + `</p>`;
+                document.getElementById("message").innerHTML = `<p class="h5">` + data.message + `</p>`;
+            } else {
+                document.getElementById("nv").innerHTML = `<p class="h5">Latest Version: ` + data.version + `</p>`;
+                document.getElementById("message").innerHTML = `<p class="h5">` + data.message + `<a class="text-decoration-none" target="_blank" href="https://mega.nz/file/grFDDKDB#TMxRFnZMI0hAQaKRW6LnB6ajkcKbb9zo1_pgCLMCN6M">Click here to download</a></p>`;
+            }
         } else {
             return document.getElementById("name").innerHTML = `<p class="h5">Error: Cannot check version ! Try again with proper name</p>`;
         }

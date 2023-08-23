@@ -1,7 +1,7 @@
 <h1 style="color: #00b4ff;" align = "center">Online Protracted Examination System</h1>
 <p align = "center">Secure System for online examination.</p>
 
-<a href="javascript:download('ope')"><img src="/public/images/btn.d.webp" alt=""></a>
+<a target="_blank" href="https://mega.nz/file/grFDDKDB#TMxRFnZMI0hAQaKRW6LnB6ajkcKbb9zo1_pgCLMCN6M"><img src="/public/images/btn.d.webp" alt=""></a>
 
 <h3 style="background: linear-gradient(to right, #f32170, #ff6b08, #cf23cf, #ef8c22); -webkit-text-fill-color: transparent; background-clip: text; -webkit-background-clip: text; padding-right: 3.5px;">Last Updated: 04-05-2023</h3>
 

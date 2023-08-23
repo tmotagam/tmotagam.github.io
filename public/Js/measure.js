@@ -20,15 +20,3 @@ loadScriptAsync(() => {
   gtag('js', new Date());
   gtag('config', 'G-FYVC394K6N');
 })
-
-async function clid() {
-  return new Promise((resolve) => {
-    const timeout = setTimeout(() => {
-      resolve(undefined);
-    }, "1000")
-    gtag('get', 'G-FYVC394K6N', 'client_id', (h) => {
-      clearTimeout(timeout)
-      resolve(h)
-    })
-  })
-}
