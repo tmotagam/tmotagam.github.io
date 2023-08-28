@@ -10,7 +10,7 @@ It works as electronic book for keeping attendance records using face identifica
 
 It can be used anywhere.
 
-<a href="../tfx_docs"><img src="/public/images/btn.g.webp" alt=""></a>
+<a href="../tfx_docs/"><img src="/public/images/btn.g.webp" alt=""></a>
 
 <br>
 

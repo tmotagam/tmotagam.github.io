@@ -11,7 +11,7 @@ Shop management system which works as electronic notebook it has sales analytics
 
 You can also see guide for Store Management System down below
 
-<a href="../sms_docs"><img src="/public/images/btn.g.webp" alt=""></a>
+<a href="../sms_docs/"><img src="/public/images/btn.g.webp" alt=""></a>
 
 <br>
 
