@@ -66,7 +66,7 @@ async function update(name, v) {
                 document.getElementById("message").innerHTML = `<p class="h5">` + data.message + `</p>`;
             } else {
                 document.getElementById("nv").innerHTML = `<p class="h5">Latest Version: ` + data.version + `</p>`;
-                document.getElementById("message").innerHTML = `<p class="h5">` + data.message + `<a class="text-decoration-none" target="_blank" href="https://mega.nz/file/kn0l3CSI#qw9AH1xWJDplQcEBpDhTzfX5nIv9K0J0AQWBNQTThxc">Click here to download</a></p>`;
+                document.getElementById("message").innerHTML = `<p class="h5">` + data.message + `<a class="text-decoration-none" target="_blank" href="https://mega.nz/file/07VDwbgS#HNnAE-4S-AXcS5GMRnkPAUWu2x-L1Sfx7vXPuP8kg1w">Click here to download</a></p>`;
             }
         } else if (name == 'ope') {
             document.getElementById("name").innerHTML = `<p class="h5">Application: Online Protracted Examination System</p>`;
