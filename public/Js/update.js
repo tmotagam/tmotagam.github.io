@@ -8,20 +8,20 @@ const re = /^(0|[1-9]\d*)\.(0|[1-9]\d*)\.(0|[1-9]\d*)(?:-((?:0|[1-9]\d*|\d*[a-zA
 
 async function updatechecker(name, v) {
     const { compare } = window.compareVersions
-    let d = {message: '', version: '', link: ''}
+    let d = { message: '', version: '', link: '' }
     const data = await (await fetch('./data.json')).json()
     Object.entries(data).forEach(([key, value]) => {
         if (name === key) {
-            if(re.test(v)) {
+            if (re.test(v)) {
                 if (compare(v, value, '<')) {
-                    d =  {message: 'New version is available ', version: value, link: '$'};
+                    d = { message: 'New version is available ', version: value, link: '$' };
                 } else if (compare(v, value, '=')) {
-                    d = {message: 'Your application is latest no need to update it', version: value, link: '#'};
+                    d = { message: 'Your application is latest no need to update it', version: value, link: '#' };
                 } else {
-                    d = {message: 'Error: Enter the parameters correctly', version: value, link: '#'};
+                    d = { message: 'Error: Enter the parameters correctly', version: value, link: '#' };
                 }
             } else {
-                d = {message: 'Error: Enter the parameters correctly', version: value, link: '#'};
+                d = { message: 'Error: Enter the parameters correctly', version: value, link: '#' };
             }
         }
     });
@@ -44,7 +44,7 @@ async function update(name, v) {
                 document.getElementById("message").innerHTML = `<p class="h5">` + data.message + `</p>`;
             } else {
                 document.getElementById("nv").innerHTML = `<p class="h5">Latest Version: ` + data.version + `</p>`;
-                document.getElementById("message").innerHTML = `<p class="h5">` + data.message + `<a class="text-decoration-none" target="_blank" href="https://mega.nz/file/p3tCQBLZ#EHVdcZD6DmvIoOjqHRSykRTGWxkpyP9vmTPzBqRpUxI">Click here to download</a></p>`;
+                document.getElementById("message").innerHTML = `<p class="h5">` + data.message + `<a class="text-decoration-none" target="_blank" href="https://mega.nz/file/JnsznQJA#rda5OJ-nZHluu1IIzm03Q5d3d05adXftrmsVG-7q_gg">Click here to download</a></p>`;
             }
         } else if (name == 'tfx') {
             document.getElementById("name").innerHTML = `<p class="h5">Application: Tahafacex</p>`;

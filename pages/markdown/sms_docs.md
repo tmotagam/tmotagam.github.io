@@ -157,7 +157,8 @@
 
 ![Usage Instruction](../../public/data/sms/u19.webp)
 
-#### Now click on the `Payment` button for the payment options, there are two options in the payment window one is for the `cash` method and other is for the `non-cash` methods.
+#### Now click on the `Payment` button for the payment options, there are two options in the payment window one is for the `cash` method and other is for the `non-cash` methods. Then the recipt will be printed. 
+#### Now if you have a thermal printer that supports ESC/POS then it will print the recipt make sure that the printer is set as default.
 
 ![Usage Instruction](../../public/data/sms/u20.webp)
 
@@ -176,6 +177,7 @@
 
 ### Let`s see the (1) Sales Analytics page.
 #### Enter name of employee or owner/your username to get all the sales the store has done till date as shown below.
+#### Now you can also filter the sales according to any month giving you more control over the data you see in the tables
 
 ![Usage Instruction](../../public/data/sms/u22.webp)
 

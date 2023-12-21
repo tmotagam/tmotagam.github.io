@@ -1,9 +1,9 @@
 <h1 style="color: #b76957;" align="center">Store Management System</h1>
 <p align = "center">System which works as electronic notebook for keeping records.</p>
 
-<a target="_blank" href="https://mega.nz/file/p3tCQBLZ#EHVdcZD6DmvIoOjqHRSykRTGWxkpyP9vmTPzBqRpUxI"><img src="/public/images/btn.d.webp" alt=""></a>
+<a target="_blank" href="https://mega.nz/file/JnsznQJA#rda5OJ-nZHluu1IIzm03Q5d3d05adXftrmsVG-7q_gg"><img src="/public/images/btn.d.webp" alt=""></a>
 
-<h3 style="background: linear-gradient(to right, #f32170, #ff6b08, #cf23cf, #ef8c22); -webkit-text-fill-color: transparent; background-clip: text; -webkit-background-clip: text; padding-right: 3.5px;">Last Updated: 06-27-2023</h3>
+<h3 style="background: linear-gradient(to right, #f32170, #ff6b08, #cf23cf, #ef8c22); -webkit-text-fill-color: transparent; background-clip: text; -webkit-background-clip: text; padding-right: 3.5px;">Last Updated: 12-21-2023</h3>
 
 ### Summary
 
@@ -15,13 +15,13 @@ You can also see guide for Store Management System down below
 
 <br>
 
-### Latest Version -> 1.8.0
+### Latest Version -> 1.9.0
 
 #### What`s new
 
-Employees can be added or removed by the owner.
+Thermal printer (ESC/POS) support.
 
-Now owner can edit store information.
+Month filter for sales analytics.
 
 <br>
 
