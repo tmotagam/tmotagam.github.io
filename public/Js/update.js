@@ -29,6 +29,7 @@ async function updatechecker(name, v) {
 }
 
 async function update(name, v) {
+    const dlinks = await (await fetch('./data.json')).json()
     if (v == null || v.trim().length === 0) {
         return document.getElementById("name").innerHTML = `<p class="h5">Error: Invalid parameters</p>`;
     }
@@ -44,7 +45,7 @@ async function update(name, v) {
                 document.getElementById("message").innerHTML = `<p class="h5">` + data.message + `</p>`;
             } else {
                 document.getElementById("nv").innerHTML = `<p class="h5">Latest Version: ` + data.version + `</p>`;
-                document.getElementById("message").innerHTML = `<p class="h5">` + data.message + `<a class="text-decoration-none" target="_blank" href="https://mega.nz/file/JnsznQJA#rda5OJ-nZHluu1IIzm03Q5d3d05adXftrmsVG-7q_gg">Click here to download</a></p>`;
+                document.getElementById("message").innerHTML = `<p class="h5">` + data.message + `<a class="text-decoration-none" target="_blank" href="` + dlinks.sms_url + `">Click here to download</a></p>`;
             }
         } else if (name == 'tfx') {
             document.getElementById("name").innerHTML = `<p class="h5">Application: Tahafacex</p>`;
@@ -55,7 +56,7 @@ async function update(name, v) {
                 document.getElementById("message").innerHTML = `<p class="h5">` + data.message + `</p>`;
             } else {
                 document.getElementById("nv").innerHTML = `<p class="h5">Latest Version: ` + data.version + `</p>`;
-                document.getElementById("message").innerHTML = `<p class="h5">` + data.message + `<a class="text-decoration-none" target="_blank" href="https://mega.nz/file/ZrkAwYaS#xbvx1RDxk0bBYwX3qM5hiJFAF3Aq-flUEntc0gvrtI8">Click here to download</a></p>`;
+                document.getElementById("message").innerHTML = `<p class="h5">` + data.message + `<a class="text-decoration-none" target="_blank" href="` + dlinks.tfx_url + `">Click here to download</a></p>`;
             }
         } else if (name == 'ftpt') {
             document.getElementById("name").innerHTML = `<p class="h5">Application: FTPT</p>`;
@@ -66,7 +67,7 @@ async function update(name, v) {
                 document.getElementById("message").innerHTML = `<p class="h5">` + data.message + `</p>`;
             } else {
                 document.getElementById("nv").innerHTML = `<p class="h5">Latest Version: ` + data.version + `</p>`;
-                document.getElementById("message").innerHTML = `<p class="h5">` + data.message + `<a class="text-decoration-none" target="_blank" href="https://mega.nz/file/07VDwbgS#HNnAE-4S-AXcS5GMRnkPAUWu2x-L1Sfx7vXPuP8kg1w">Click here to download</a></p>`;
+                document.getElementById("message").innerHTML = `<p class="h5">` + data.message + `<a class="text-decoration-none" target="_blank" href="` + dlinks.ftpt_url + `">Click here to download</a></p>`;
             }
         } else if (name == 'ope') {
             document.getElementById("name").innerHTML = `<p class="h5">Application: Online Protracted Examination System</p>`;
@@ -77,7 +78,7 @@ async function update(name, v) {
                 document.getElementById("message").innerHTML = `<p class="h5">` + data.message + `</p>`;
             } else {
                 document.getElementById("nv").innerHTML = `<p class="h5">Latest Version: ` + data.version + `</p>`;
-                document.getElementById("message").innerHTML = `<p class="h5">` + data.message + `<a class="text-decoration-none" target="_blank" href="https://mega.nz/file/grFDDKDB#TMxRFnZMI0hAQaKRW6LnB6ajkcKbb9zo1_pgCLMCN6M">Click here to download</a></p>`;
+                document.getElementById("message").innerHTML = `<p class="h5">` + data.message + `<a class="text-decoration-none" target="_blank" href="` + dlinks.ope_url + `">Click here to download</a></p>`;
             }
         } else {
             return document.getElementById("name").innerHTML = `<p class="h5">Error: Cannot check version ! Try again with proper name</p>`;

@@ -78,125 +78,100 @@
 ![Usage Instruction](../../public/data/tfx/u2.webp)
 
 #### But if you do not have the backup present then click no and proceed for setup of the app.
-#### Once you clicked no you will get a register screen like this.
+#### Once you clicked no you will get a registration screen like this. Register yourself
 
 ![Usage Instruction](../../public/data/tfx/u3.webp)
 
-#### Register yourself and you will get a registration successful message click on ok.
+#### Then you will be transferred to the login screen. Enter your username and password to login to manage your CODE or create a new one.
 
 ![Usage Instruction](../../public/data/tfx/u4.webp)
 
-#### Then you will be transferred to the login screen
+#### In Manager Portal you can create, edit, view, view register, export register and delete any CODE you can also create backup get help and export attendence registers of all the CODE
 
 ![Usage Instruction](../../public/data/tfx/u5.webp)
 
-<!-- #### If you had given the backup of your files then enter the code and use the software if not then go to the code registration -->
+#### First we will do a CODE registeration on the CODE registeration Page by clicking on the button below.
 
-<!-- ![Usage Instruction](../../public/data/tfx/u6.webp) -->
-
-<!-- #### Enter a unique code and number of people you want to have in that code/class/department. -->
-<!-- #### Then enter your password and click on register. The class/code/department will be created and you will get message as shown below. -->
-
-<!-- ![Usage Instruction](../../public/data/tfx/u7.webp) -->
-
-#### Enter your username and password to login to manage your CODE your create a new one
+#### We will enter a unique code and number of people(s) you want to have in that code/class/department and click register to register the CODE.
 
 ![Usage Instruction](../../public/data/tfx/u6.webp)
 
-#### In Manager Portal you can create new CODE manage any existing CODE and delete the CODE also create backup help and export attendence registers of all the CODE
+#### Second we will Manage the CODE(s).
+
+#### Here you can view the CODE delete it, edit it view the register and also export the register as shown below.
 
 ![Usage Instruction](../../public/data/tfx/u7.webp)
 
-#### First we will do a CODE registeration on the CODE registeration Page.
-
-#### We will enter a unique code and number of people (Now you can have more than 100 people/students/employees) you want to have in that code/class/department and click register to register the CODE.
+#### Let`s view the CODE here you can manage the person like adding, editing and deleting them
 
 ![Usage Instruction](../../public/data/tfx/u8.webp)
 
-#### Second we will Manage the CODE Enter the CODE and get to the Manage CODE page.
-
-#### Attendance Register shows you the attendence excel sheets.
-
-#### You can export the attendence register of this CODE by clicking on the export attendence register button
-
-#### Person management allows you to manage person/student/employee.
+#### Adding a person/employee/student.
 
 ![Usage Instruction](../../public/data/tfx/u9.webp)
 
-#### Let`s see how to use the Person management
+#### We are using the example person as the name then click on add person then you will get a message from the app telling you to procced to the image capturing of the person/student/employee as shown below.
 
 ![Usage Instruction](../../public/data/tfx/u10.webp)
 
-#### Adding a person/employee/student.
+#### click on the ok button and then as shown below click on the switch button to activate the camera and then click on the camera icon to capture image.
 
 ![Usage Instruction](../../public/data/tfx/u11.webp)
 
-#### We are using the example as a name then click on add person then you will get a message from the app telling you to procced to the image capturing of the person/student/employee as shown below.
+#### Editing a person/employee/student data
+
+#### We can change their image and name in the database by clicking on the edit icon as shown.
 
 ![Usage Instruction](../../public/data/tfx/u12.webp)
 
-#### click on the ok button and then give permission to the application to capture image as shown below.
+#### Deleting a person/employee/student data
+
+#### You can delete a person by clicking on the delete person icon.
 
 ![Usage Instruction](../../public/data/tfx/u13.webp)
 
-#### Editing a person/employee/student data
-
-#### It requires unique id of the person/employee/student to find them in database and fetch all the details.
+#### You can also save the attendance record of the person/employee/student if you want as shown below.
 
 ![Usage Instruction](../../public/data/tfx/u14.webp)
 
-#### Here we have fetch details of the example. We can change their image and name in the database as shown.
+#### Then choose the folder for saving the record of the deleted person/employee/student.
 
 ![Usage Instruction](../../public/data/tfx/u15.webp)
 
-#### Deleting a person/employee/student data
+#### NOTE: Do be careful as deleting the person it will change all the subsequent person/employee/student unique id eg. if you delete unique id 1 the unique id 2 will become 1 and 3 will be 2.
 
-#### It requires unique id of the person/employee/student to delete their record from the database.
+#### Third is delete code click on the delete CODE button and it will delete the entire CODE along with all the data about that CODE.
 
 ![Usage Instruction](../../public/data/tfx/u16.webp)
 
-#### You can also save the attendance record of the person/employee/student if you want as shown below.
+#### Fourth is edit code in this you can change the CODE name and also number of person(s) for that code
 
 ![Usage Instruction](../../public/data/tfx/u17.webp)
-
-#### Then choose the folder for saving the record of the deleted person/employee/student.
-
-![Usage Instruction](../../public/data/tfx/u18.webp)
-
-#### NOTE: Do be careful as deleting the person it will change all the subsequent person/employee/student unique id eg. if you delete unique id 1 the unique id 2 will become 1 and 3 will be 2.
-
-#### Third is delete code we will enter the CODE it will delete the entire CODE along with all the data about that CODE.
-
-![Usage Instruction](../../public/data/tfx/u19.webp)
 
 #### Now lets explore the student/person/employee portal as well
 
 #### the person/student/employee only needs to remember the code/class/department in which they are enrolled.
 
-#### Enter the code in the login page and go to the attendance page as shown below.
+#### Enter the code and go to the attendance page as shown below.
 
-![Usage Instruction](../../public/data/tfx/u20.webp)
+![Usage Instruction](../../public/data/tfx/u18.webp)
 
 
-#### The attendance page has only one option to mark the person/student/employee attendance
+#### On the attendance page first activate the camera then capture the image using the camera button. Even if the camera disconnects or have issues you can click on the activate camera button and restart the camera.
 
-![Usage Instruction](../../public/data/tfx/u21.webp)
-
-#### Once they click on the button the app will ask for the camera permission and take the photo of the employee/person/student face.
-
-![Usage Instruction](../../public/data/tfx/u22.webp)
+![Usage Instruction](../../public/data/tfx/u19.webp)
 
 #### Then the image goes to the AI for recognizing the student/employee/person in the image.
 
 #### As we have used example in this docs the AI perfectly recognize the example in the image and gives message as shown.
 
-![Usage Instruction](../../public/data/tfx/u23.webp)
+![Usage Instruction](../../public/data/tfx/u20.webp)
 
 #### Once you confim that the person/employee/student is example it will mark the attendance of the example in the excel sheet.
 
-#### We have included the help menu which will take you to this guide help you in checking new versions and also allowing you to report bugs or problems.
+#### The menu will take you to this guide help you in checking new versions and also allowing you to report bugs or problems create backups and export all the registers of all the CODE(s) you have.
 
-![Usage Instruction](../../public/data/tfx/u24.webp)
+![Usage Instruction](../../public/data/tfx/u21.webp)
 
 <br>
 
