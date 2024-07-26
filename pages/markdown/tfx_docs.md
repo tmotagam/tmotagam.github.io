@@ -1,17 +1,21 @@
 <a href="../tfx/"><img src="/public/images/btn.b.webp" alt=""></a>
 <br>
+
 <h1 style="color: #c999e8;" align = "center">TahaFacex</h1>
 <p align = "center">It works as electronic book for keeping attendance records.</p>
 
 <br>
 
 ### Hi welcome to this guide 😃 :
+
 #### I have created this guide to help users who are new 👦 and old 👴 as well to help them use this software to its full potential.
+
 #### This guide will help you for installing and using this software.
 
 <br>
 
 ## Table Of Contents:
+
 1. [Installation Instructions](#installation-instructions)
 2. [Usage Instructions](#usage-instructions)
 3. [Compatibility](#compatibility)
@@ -21,23 +25,28 @@
 
 ### These are detailed installation instructions for this software to help you guide through the installation.
 
-#### First click on the icon of the software once clicked it will open a window where you will see two options one is recommended as you can see in the 
+#### First click on the icon of the software once clicked it will open a window where you will see two options one is recommended as you can see in the
+
 #### image given below choose the (Recommended option).
 
 ![Installation Instruction](../../public/data/tfx/i1.webp)
 
 #### Click the install for me option as it will not require any admin permissions if you want to install it as admin which is second option
+
 #### you will require the admin access for installing as well as for running the software.
+
 #### Once you choose the option then you have to agree on the license see in image below.
 
 ![Installation Instruction](../../public/data/tfx/i2.webp)
 
 #### Once you agreed to the terms and conditions of the software click on next then you will get to choose the destination of the installation
+
 #### choose wherever you want to install the software and you have the required space for the software click next.
 
 ![Installation Instruction](../../public/data/tfx/i3.webp)
 
-#### Once you have selected the folder then choose if you want to have start menu folder or not. 
+#### Once you have selected the folder then choose if you want to have start menu folder or not.
+
 #### The choice is yours. You can also change the folder`s name if you want then click next.
 
 ![Installation Instruction](../../public/data/tfx/i4.webp)
@@ -51,6 +60,7 @@
 ![Installation Instruction](../../public/data/tfx/i6.webp)
 
 #### While installing you have to install the webview2 Runtime as it is a required library
+
 #### once installed the installation will procced as usual.
 
 ![Installation Instruction](../../public/data/tfx/i7.webp)
@@ -78,6 +88,7 @@
 ![Usage Instruction](../../public/data/tfx/u2.webp)
 
 #### But if you do not have the backup present then click no and proceed for setup of the app.
+
 #### Once you clicked no you will get a registration screen like this. Register yourself
 
 ![Usage Instruction](../../public/data/tfx/u3.webp)
@@ -156,7 +167,6 @@
 
 ![Usage Instruction](../../public/data/tfx/u18.webp)
 
-
 #### On the attendance page first activate the camera then capture the image using the camera button. Even if the camera disconnects or have issues you can click on the activate camera button and restart the camera.
 
 ![Usage Instruction](../../public/data/tfx/u19.webp)
@@ -169,7 +179,9 @@
 
 #### Once you confim that the person/employee/student is example it will mark the attendance of the example in the excel sheet.
 
-#### The menu will take you to this guide help you in checking new versions and also allowing you to report bugs or problems create backups and export all the registers of all the CODE(s) you have.
+#### The menu will create backups and export all the registers of all the CODE(s) you have.
+
+#### Also the footer will take you to this guide help you in checking new versions and also allowing you to report bugs or problems.
 
 ![Usage Instruction](../../public/data/tfx/u21.webp)
 
@@ -182,6 +194,7 @@
 <br>
 
 ## License
+
 [TahaFacex is under license GNU-GPL - 3.0](https://www.gnu.org/licenses/gpl-3.0.en.html)
 
 [This guide is also under license of GNU-FDL - 1.3](https://www.gnu.org/licenses/fdl-1.3.html)
