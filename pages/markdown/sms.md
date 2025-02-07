@@ -1,9 +1,9 @@
 <h1 style="color: #b76957;" align="center">Store Management System</h1>
 <p align = "center">System which works as electronic notebook for keeping records.</p>
 
-<a target="_blank" href="https://mega.nz/file/8u8kTLKb#DRyD9U7jTtQfypX3r3Gs8fD3QJT6WP8lbLVyfcZO3Oo"><img src="/public/images/btn.d.webp" alt=""></a>
+<a target="_blank" href="https://mega.nz/file/wjsEDT6S#sIlcb-o40HPVxURiH1sUQ-jOTsSU6sDYJqTnl6WJeqk"><img src="/public/images/btn.d.webp" alt=""></a>
 
-<h3 style="background: linear-gradient(to right, #f32170, #ff6b08, #cf23cf, #ef8c22); -webkit-text-fill-color: transparent; background-clip: text; -webkit-background-clip: text; padding-right: 3.5px;">Last Updated: 07-18-2024</h3>
+<h3 style="background: linear-gradient(to right, #f32170, #ff6b08, #cf23cf, #ef8c22); -webkit-text-fill-color: transparent; background-clip: text; -webkit-background-clip: text; padding-right: 3.5px;">Last Updated: 02-07-2025</h3>
 
 #### Your Store Management System support
 
@@ -21,15 +21,11 @@ While still having your data to your self, and amazing built-in analytics for yo
 
 <br>
 
-### Latest Version -> 2.0.0
+### Latest Version -> 2.2.1
 
 #### What`s new
 
-Entire UI changed
-
-Introduced lots of new features
-
-Made UI even faster and easier to use
+Return and Exchange feature added
 
 <br>
 
