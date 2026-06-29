@@ -1,1 +1,1 @@
-import{o as a}from"./DOMUtils.DvLWu1kG.js";const e=()=>{a('[data-id="w-accordion"]',"click",o=>{const t=o.target;t.dataset.toggle&&(t.dataset.open=t.dataset.open==="true"?"false":"true")},!0)};a(document,"astro:after-swap",e);e();
+import{o as a}from"./DOMUtils.DvLWu1kG.js";const e=()=>{a('[data-id="w-accordion"]',"click",t=>{const a=t.target;a.dataset.toggle&&(a.dataset.open="true"===a.dataset.open?"false":"true")},!0)};a(document,"astro:after-swap",e),e();

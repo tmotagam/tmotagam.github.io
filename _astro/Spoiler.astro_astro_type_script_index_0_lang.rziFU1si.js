@@ -1,1 +1,1 @@
-import{o as e}from"./DOMUtils.DvLWu1kG.js";const r=()=>{e('[data-id="w-spoiler"]',"click",o=>{const t=o.currentTarget;t.dataset.visible="true",t.removeAttribute("data-tooltip"),t.removeAttribute("role"),t.removeAttribute("tabindex")},!0)};e(document,"astro:after-swap",r);r();
+import{o as e}from"./DOMUtils.DvLWu1kG.js";const r=()=>{e('[data-id="w-spoiler"]',"click",t=>{const e=t.currentTarget;e.dataset.visible="true",e.removeAttribute("data-tooltip"),e.removeAttribute("role"),e.removeAttribute("tabindex")},!0)};e(document,"astro:after-swap",r),r();
