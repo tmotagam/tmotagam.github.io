@@ -1,0 +1,1 @@
+import{p as o}from"./popover.-yhRjAHw.js";import"./debounce.DT8DhbJn.js";o({trigger:".popover-trigger",popover:".popover",offset:20,position:"bottom-start"});
