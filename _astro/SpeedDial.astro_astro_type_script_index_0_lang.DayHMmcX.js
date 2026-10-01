@@ -1,0 +1,1 @@
+import{o as a,g as n}from"./DOMUtils.DvLWu1kG.js";const o=()=>{const t=n('[data-id="w-speed-dial"] button'),e=t?.parentElement;t&&(a(t,"click",()=>{e.dataset.show="true"===e.dataset.show?"false":"true"}),a(document,"click",a=>{t.contains(a.target||a.currentTarget)||(e.dataset.show="false")}))};a(document,"astro:after-swap",o),o();

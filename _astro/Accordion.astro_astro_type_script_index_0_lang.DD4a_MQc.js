@@ -1,1 +1,0 @@
-import{a}from"./DOMUtils.C27ac6Yn.js";const e=()=>{a('[data-id="w-accordion"]',"click",t=>{const a=t.target;a.dataset.toggle&&(a.dataset.open="true"===a.dataset.open?"false":"true")},!0)};a(document,"astro:after-swap",e),e();
