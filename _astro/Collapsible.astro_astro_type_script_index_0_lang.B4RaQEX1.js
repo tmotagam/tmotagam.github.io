@@ -1,0 +1,1 @@
+import{a as s}from"./DOMUtils.C27ac6Yn.js";const l=()=>{s('[data-id="w-collapsible"]',"click",t=>{const a=t.currentTarget,e=t.target;e.parentElement?.dataset.toggleOn&&(a.dataset.toggled="true"),e.parentElement?.dataset.toggleOff&&(a.dataset.toggled="false")},!0)};s(document,"astro:after-swap",l),l();

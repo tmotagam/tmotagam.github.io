@@ -1,1 +1,0 @@
-import{o}from"./DOMUtils.DvLWu1kG.js";const s=()=>{o('[data-id="w-input-otp"]',"input",t=>{const e=t.target,a=e.value;Array.from(e.nextElementSibling.children).filter(t=>!t.dataset.separator).forEach((t,e)=>{const r=t;r.innerText=a[e]||"",r.dataset.active=a.length===e?"true":"false"})},!0)};o(document,"astro:after-swap",s),s();

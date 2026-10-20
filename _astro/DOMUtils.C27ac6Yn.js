@@ -1,0 +1,1 @@
+const o=(e,t)=>t?document?.querySelectorAll(e):document?.querySelector(e),d=(e,t,r,n)=>{n&&"string"==typeof e?document.querySelectorAll(e)?.forEach(e=>{e.addEventListener(t,r)}):"string"!=typeof e?e?.addEventListener(t,r):o(e)?.addEventListener(t,r)},u=(e,t,r,n)=>{"string"!=typeof e?e?.removeEventListener(t,r):o(e)?.removeEventListener(t,r)};export{d as a,o as g,u as o};

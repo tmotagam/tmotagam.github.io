@@ -1,0 +1,1 @@
+import{a as t}from"./DOMUtils.C27ac6Yn.js";const e=()=>{t('[data-id="w-banner-close"]',"click",e=>{e.currentTarget.parentElement?.remove()},!0)};t(document,"astro:after-swap",e),e();

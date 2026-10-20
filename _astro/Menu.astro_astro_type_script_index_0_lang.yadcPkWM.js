@@ -1,1 +1,0 @@
-import{o as t}from"./DOMUtils.DvLWu1kG.js";const a=()=>{t('[data-id="hamburger"]',"click",t=>{const a=t.currentTarget.parentElement?.parentElement;a.dataset.active="true"===a.dataset.active?"false":"true"})};t(document,"astro:after-swap",a),a();
